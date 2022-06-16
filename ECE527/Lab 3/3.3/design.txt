@@ -1,0 +1,47 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP1
+Date:        Sun Mar 13 21:12:44 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     24
+    Unconnected ports (LINT-28)                                     2
+    Shorted outputs (LINT-31)                                       9
+    Constant outputs (LINT-52)                                     13
+
+Nets                                                                3
+    Unloaded nets (LINT-2)                                          2
+    Net has multiple drivers (LINT-4)                               1
+--------------------------------------------------------------------------------
+
+Warning: In design 'clock', net 'clockdiv/SYNOPSYS_UNCONNECTED_1' driven by pin 'clockdiv/add_26/SUM[0]' has no loads. (LINT-2)
+Warning: In design 'clock', net 'display_value/SYNOPSYS_UNCONNECTED_1' driven by pin 'display_value/display_digit/ssg[7]' has no loads. (LINT-2)
+Information: In design 'clock', net 'led_0' has multiple drivers.  Wired AND assumed. (LINT-4)
+Warning: In design 'clock', port 'clk2' is not connected to any nets. (LINT-28)
+Warning: In design 'clockdiv_DW01_inc_0', port 'SUM[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'clock', output port 'led[6]' is connected directly to output port 'red'. (LINT-31)
+Warning: In design 'clock', output port 'led[6]' is connected directly to output port 'grn'. (LINT-31)
+Warning: In design 'clock', output port 'led[6]' is connected directly to output port 'blue'. (LINT-31)
+Warning: In design 'clock', output port 'led[6]' is connected directly to output port 'led[1]'. (LINT-31)
+Warning: In design 'clock', output port 'led[6]' is connected directly to output port 'led[2]'. (LINT-31)
+Warning: In design 'clock', output port 'led[6]' is connected directly to output port 'led[3]'. (LINT-31)
+Warning: In design 'clock', output port 'led[6]' is connected directly to output port 'led[4]'. (LINT-31)
+Warning: In design 'clock', output port 'led[6]' is connected directly to output port 'led[5]'. (LINT-31)
+Warning: In design 'clock', output port 'vs' is connected directly to output port 'hs'. (LINT-31)
+Warning: In design 'clock', output port 'led[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'clock', output port 'led[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'clock', output port 'led[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'clock', output port 'led[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'clock', output port 'led[2]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'clock', output port 'led[1]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'clock', output port 'vs' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'clock', output port 'hs' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'clock', output port 'blue' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'clock', output port 'grn' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'clock', output port 'red' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'display_value', output port 'ssg[7]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'display_digit', output port 'ssg[7]' is connected directly to 'logic 1'. (LINT-52)
+1

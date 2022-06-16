@@ -1,0 +1,32 @@
+#saed32rvt_tt1p05v25c.db
+#
+#
+#       Site-Specific Variables
+#
+#       These are the variables that are most commonly changed at a
+#       specific site, either upon installation of the Synopsys software,
+#       or by specific engineers in their local .synopsys files.
+#
+#
+
+# from the System Variable Group 
+set lib { /opt/ECE_Lib/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db /opt/ECE_Lib/SAED32_EDK/lib/io_std/db_ccs/saed32io_fc_tt1p05v25c_2p5v.db /opt/ECE_Lib/SAED32_EDK/lib/sram/db_ccs/saed32sram_tt1p05v25c.db}
+set lib_link "/opt/ECE_Lib/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db "
+set link_library { * /opt/ECE_Lib/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db  }
+
+
+set search_path [list . ${synopsys_root}/libraries/syn ${synopsys_root}/dw/syn_ver ${synopsys_root}/dw/sim_ver    ]
+
+
+set target_library  $lib
+set synthetic_library  ""
+set command_log_file  "./command.log"
+set designer  "Gary"
+set company  "CSUN"
+set find_converts_name_lists  "false"
+
+set symbol_library  $lib 
+
+#/opt/ECE_Lib/SAED32_EDK/lib/io_std/db_ccs/saed32io_fc_tt1p05v25c_2p5v.db 
+
+#/opt/ECE_Lib/SAED32_EDK/lib/sram/db_ccs/saed32sram_tt1p05v25c.db

@@ -1,0 +1,77 @@
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'fsm'
+Information: The register 'curr_state_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'curr_state_reg[6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'curr_state_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'curr_state_reg[4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'curr_state_reg[3]' is a constant and will be removed. (OPT-1206)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00      68.0      0.00       0.0       0.0                          
+    0:00:00      68.0      0.00       0.0       0.0                          
+    0:00:00      68.0      0.00       0.0       0.0                          
+    0:00:00      68.0      0.00       0.0       0.0                          
+    0:00:00      68.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      53.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+    0:00:00      52.0      0.00       0.0       0.0                          
+Loading db file '/opt/synopsys/syn/O-2018.06-SP1/libraries/syn/lsi_10k.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1

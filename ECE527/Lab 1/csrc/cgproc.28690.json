@@ -1,0 +1,112 @@
+{
+    "CompUnits": {
+        "IKqKV_d": {
+            "mod": "binary_counter_tb",
+            "mode": 4,
+            "out": "IKqKV_d.o",
+            "bytes": 14812,
+            "checksum": 0,
+            "text": 3078,
+            "archive": "archive.58/_28690_archive_1.a"
+        }
+    },
+    "Modules": {
+        "...MASTER...": {
+            "nMops": 0,
+            "start_perf": [
+                0.44524312019348145,
+                0.072242000000000001,
+                0.049931999999999997,
+                207564,
+                221496,
+                1644120014.9035311,
+                5529529142253080
+            ],
+            "child_modules": {
+                "binary_counter_tb": 1
+            },
+            "end_perf": [
+                0.48048496246337891,
+                0.075692999999999996,
+                0.056502999999999998,
+                209252,
+                221496,
+                5529529266144566,
+                0,
+                0
+            ],
+            "nQuads": 0,
+            "nRouts": 5
+        },
+        "binary_counter_tb": {
+            "nMops": 582,
+            "start_perf": [
+                0.48087096214294434,
+                0.075692999999999996,
+                0.056869999999999997,
+                209252,
+                221496,
+                1644120014.9391589,
+                5529529267325836
+            ],
+            "child_modules": {},
+            "Compiled": "Yes",
+            "nRouts": 34,
+            "Compiled Times": 25,
+            "end_perf": [
+                0.56819009780883789,
+                0.099315000000000001,
+                0.067278000000000004,
+                213776,
+                221496,
+                5529529573381692,
+                12884901889,
+                0
+            ],
+            "nQuads": 277
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.58/_28690_archive_1.a",
+            "objects": [
+                [
+                    "IKqKV_d.o",
+                    14812
+                ],
+                [
+                    "amcQwB.o",
+                    98982
+                ]
+            ],
+            "size": 113794
+        }
+    ],
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "stat": {
+        "peak_mem_kb": 221496,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.032585000000000003,
+            "ru_stime_sec": 0.037665999999999998,
+            "ru_maxrss_kb": 22028,
+            "ru_minflt": 6926,
+            "ru_nivcsw": 8,
+            "ru_majflt": 0,
+            "ru_nvcsw": 22
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.10648100000000001,
+            "ru_stime_sec": 0.075907000000000002,
+            "ru_maxrss_kb": 74428,
+            "ru_minflt": 24955,
+            "ru_nivcsw": 34,
+            "ru_majflt": 0,
+            "ru_nvcsw": 300
+        },
+        "cpu_cycles_end": 5529529848111400
+    }
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/ksh
+
+echo "hallo gary"
+which vcs
+
+vcs -full64  -v2005  -f buffer.f -v /opt/ECE_Lib/SAED32_EDK/lib/stdcell_rvt/verilog/saed32nm.v -v  /opt/ECE_Lib/SAED32_EDK/lib/sram/verilog/saed32sram.v  -v iolib.v -debug_pp 
+
+#simv
+#dve -full64 &

@@ -1,0 +1,55 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : clock
+Version: O-2018.06-SP1
+Date   : Sun Mar 13 21:12:46 2022
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: tim/secs_reg_7_
+              (rising edge-triggered flip-flop clocked by clk1)
+  Endpoint: tim/hours_reg_3_
+            (rising edge-triggered flip-flop clocked by clk1)
+  Path Group: clk1
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk1 (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tim/secs_reg_7_/CP (FD2P)                0.00       0.00 r
+  tim/secs_reg_7_/Q (FD2P)                 1.56       1.56 r
+  tim/U68/Z (IVAP)                         0.21       1.76 f
+  tim/U75/Z (ND3P)                         0.84       2.61 r
+  tim/U47/Z (IVAP)                         0.24       2.85 f
+  tim/U88/Z (ND4P)                         0.69       3.54 r
+  tim/U40/Z (ND2)                          0.22       3.76 f
+  tim/U39/Z (ND2)                          0.78       4.53 r
+  tim/U145/Z (AO7P)                        0.37       4.90 f
+  tim/U146/Z (ND2P)                        0.87       5.78 r
+  tim/U28/Z (IVP)                          0.29       6.07 f
+  tim/U77/Z (AN3)                          0.91       6.98 f
+  tim/U149/Z (ND2)                         0.78       7.75 r
+  tim/U60/Z (MUX21LP)                      0.39       8.15 f
+  tim/hours_reg_3_/D (FD2)                 0.00       8.15 f
+  data arrival time                                   8.15
+
+  clock clk1 (rise edge)                   9.00       9.00
+  clock network delay (ideal)              0.00       9.00
+  tim/hours_reg_3_/CP (FD2)                0.00       9.00 r
+  library setup time                      -0.85       8.15
+  data required time                                  8.15
+  -----------------------------------------------------------
+  data required time                                  8.15
+  data arrival time                                  -8.15
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

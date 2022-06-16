@@ -1,0 +1,189 @@
+Command: /home/users7/kg867678/527LSP22/Lab2/./simv -l lab2-2.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Feb 13 21:06 2022
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0 clk = 0 reset= 1 count_down= 0 enable = 1 counter=  0
+                   5 clk = 1 reset= 1 count_down= 0 enable = 1 counter=  0
+                  10 clk = 0 reset= 1 count_down= 0 enable = 1 counter=  0
+                  15 clk = 1 reset= 1 count_down= 0 enable = 1 counter=  0
+                  20 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  0
+                  25 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  1
+                  30 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  1
+                  35 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  2
+                  40 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  2
+                  45 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  3
+                  50 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  3
+                  55 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  4
+                  60 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  4
+                  65 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  5
+                  70 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  5
+                  75 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  6
+                  80 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  6
+                  85 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  7
+                  90 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  7
+                  95 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  8
+                 100 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  8
+                 105 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  9
+                 110 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  9
+                 115 clk = 1 reset= 0 count_down= 0 enable = 1 counter= 10
+                 120 clk = 0 reset= 0 count_down= 0 enable = 1 counter= 10
+                 125 clk = 1 reset= 0 count_down= 0 enable = 1 counter= 11
+                 130 clk = 0 reset= 0 count_down= 0 enable = 1 counter= 11
+                 135 clk = 1 reset= 0 count_down= 0 enable = 1 counter= 12
+                 140 clk = 0 reset= 0 count_down= 0 enable = 1 counter= 12
+                 145 clk = 1 reset= 0 count_down= 0 enable = 1 counter= 13
+                 150 clk = 0 reset= 0 count_down= 0 enable = 1 counter= 13
+                 155 clk = 1 reset= 0 count_down= 0 enable = 1 counter= 14
+                 160 clk = 0 reset= 0 count_down= 0 enable = 1 counter= 14
+                 165 clk = 1 reset= 0 count_down= 0 enable = 1 counter= 15
+                 170 clk = 0 reset= 0 count_down= 1 enable = 1 counter= 15
+                 175 clk = 1 reset= 0 count_down= 1 enable = 1 counter=254
+                 180 clk = 0 reset= 0 count_down= 1 enable = 1 counter=254
+                 185 clk = 1 reset= 0 count_down= 1 enable = 1 counter=253
+                 190 clk = 0 reset= 0 count_down= 1 enable = 1 counter=253
+                 195 clk = 1 reset= 0 count_down= 1 enable = 1 counter=252
+                 200 clk = 0 reset= 0 count_down= 1 enable = 1 counter=252
+                 205 clk = 1 reset= 0 count_down= 1 enable = 1 counter=251
+                 210 clk = 0 reset= 0 count_down= 1 enable = 1 counter=251
+                 215 clk = 1 reset= 0 count_down= 1 enable = 1 counter=250
+                 220 clk = 0 reset= 0 count_down= 1 enable = 1 counter=250
+                 225 clk = 1 reset= 0 count_down= 1 enable = 1 counter=249
+                 230 clk = 0 reset= 0 count_down= 1 enable = 1 counter=249
+                 235 clk = 1 reset= 0 count_down= 1 enable = 1 counter=248
+                 240 clk = 0 reset= 0 count_down= 1 enable = 1 counter=248
+                 245 clk = 1 reset= 0 count_down= 1 enable = 1 counter=247
+                 250 clk = 0 reset= 0 count_down= 1 enable = 1 counter=247
+                 255 clk = 1 reset= 0 count_down= 1 enable = 1 counter=246
+                 260 clk = 0 reset= 0 count_down= 1 enable = 1 counter=246
+                 265 clk = 1 reset= 0 count_down= 1 enable = 1 counter=245
+                 270 clk = 0 reset= 0 count_down= 1 enable = 1 counter=245
+                 275 clk = 1 reset= 0 count_down= 1 enable = 1 counter=244
+                 280 clk = 0 reset= 0 count_down= 1 enable = 1 counter=244
+                 285 clk = 1 reset= 0 count_down= 1 enable = 1 counter=243
+                 290 clk = 0 reset= 0 count_down= 1 enable = 1 counter=243
+                 295 clk = 1 reset= 0 count_down= 1 enable = 1 counter=242
+                 300 clk = 0 reset= 0 count_down= 1 enable = 1 counter=242
+                 305 clk = 1 reset= 0 count_down= 1 enable = 1 counter=241
+                 310 clk = 0 reset= 0 count_down= 1 enable = 1 counter=241
+                 315 clk = 1 reset= 0 count_down= 1 enable = 1 counter=240
+                 320 clk = 0 reset= 0 count_down= 1 enable = 1 counter=240
+                 325 clk = 1 reset= 0 count_down= 1 enable = 1 counter=239
+                 330 clk = 0 reset= 0 count_down= 1 enable = 1 counter=239
+                 335 clk = 1 reset= 0 count_down= 1 enable = 1 counter=238
+                 340 clk = 0 reset= 0 count_down= 1 enable = 1 counter=238
+                 345 clk = 1 reset= 0 count_down= 1 enable = 1 counter=237
+                 350 clk = 0 reset= 0 count_down= 1 enable = 1 counter=237
+                 355 clk = 1 reset= 0 count_down= 1 enable = 1 counter=236
+                 360 clk = 0 reset= 0 count_down= 1 enable = 1 counter=236
+                 365 clk = 1 reset= 0 count_down= 1 enable = 1 counter=235
+                 370 clk = 0 reset= 0 count_down= 1 enable = 1 counter=235
+                 375 clk = 1 reset= 0 count_down= 1 enable = 1 counter=234
+                 380 clk = 0 reset= 0 count_down= 1 enable = 1 counter=234
+                 385 clk = 1 reset= 0 count_down= 1 enable = 1 counter=233
+                 390 clk = 0 reset= 0 count_down= 1 enable = 1 counter=233
+                 395 clk = 1 reset= 0 count_down= 1 enable = 1 counter=232
+                 400 clk = 0 reset= 0 count_down= 1 enable = 1 counter=232
+                 405 clk = 1 reset= 0 count_down= 1 enable = 1 counter=231
+                 410 clk = 0 reset= 0 count_down= 1 enable = 1 counter=231
+                 415 clk = 1 reset= 0 count_down= 1 enable = 1 counter=230
+                 420 clk = 0 reset= 0 count_down= 1 enable = 1 counter=230
+                 425 clk = 1 reset= 0 count_down= 1 enable = 1 counter=229
+                 430 clk = 0 reset= 0 count_down= 1 enable = 1 counter=229
+                 435 clk = 1 reset= 0 count_down= 1 enable = 1 counter=228
+                 440 clk = 0 reset= 0 count_down= 1 enable = 1 counter=228
+                 445 clk = 1 reset= 0 count_down= 1 enable = 1 counter=227
+                 450 clk = 0 reset= 0 count_down= 1 enable = 1 counter=227
+                 455 clk = 1 reset= 0 count_down= 1 enable = 1 counter=226
+                 460 clk = 0 reset= 0 count_down= 1 enable = 1 counter=226
+                 465 clk = 1 reset= 0 count_down= 1 enable = 1 counter=225
+                 470 clk = 0 reset= 0 count_down= 1 enable = 1 counter=225
+                 475 clk = 1 reset= 0 count_down= 1 enable = 1 counter=224
+                 480 clk = 0 reset= 0 count_down= 1 enable = 1 counter=224
+                 485 clk = 1 reset= 0 count_down= 1 enable = 1 counter=223
+                 490 clk = 0 reset= 0 count_down= 1 enable = 1 counter=223
+                 495 clk = 1 reset= 0 count_down= 1 enable = 1 counter=222
+                 500 clk = 0 reset= 0 count_down= 1 enable = 1 counter=222
+                 505 clk = 1 reset= 0 count_down= 1 enable = 1 counter=221
+                 510 clk = 0 reset= 0 count_down= 1 enable = 1 counter=221
+                 515 clk = 1 reset= 0 count_down= 1 enable = 1 counter=220
+                 520 clk = 0 reset= 0 count_down= 1 enable = 1 counter=220
+                 525 clk = 1 reset= 0 count_down= 1 enable = 1 counter=219
+                 530 clk = 0 reset= 0 count_down= 1 enable = 1 counter=219
+                 535 clk = 1 reset= 0 count_down= 1 enable = 1 counter=218
+                 540 clk = 0 reset= 0 count_down= 1 enable = 1 counter=218
+                 545 clk = 1 reset= 0 count_down= 1 enable = 1 counter=217
+                 550 clk = 0 reset= 0 count_down= 1 enable = 1 counter=217
+                 555 clk = 1 reset= 0 count_down= 1 enable = 1 counter=216
+                 560 clk = 0 reset= 0 count_down= 1 enable = 1 counter=216
+                 565 clk = 1 reset= 0 count_down= 1 enable = 1 counter=215
+                 570 clk = 0 reset= 0 count_down= 1 enable = 1 counter=215
+                 575 clk = 1 reset= 0 count_down= 1 enable = 1 counter=214
+                 580 clk = 0 reset= 0 count_down= 1 enable = 1 counter=214
+                 585 clk = 1 reset= 0 count_down= 1 enable = 1 counter=213
+                 590 clk = 0 reset= 0 count_down= 1 enable = 1 counter=213
+                 595 clk = 1 reset= 0 count_down= 1 enable = 1 counter=212
+                 600 clk = 0 reset= 0 count_down= 1 enable = 1 counter=212
+                 605 clk = 1 reset= 0 count_down= 1 enable = 1 counter=211
+                 610 clk = 0 reset= 0 count_down= 1 enable = 1 counter=211
+                 615 clk = 1 reset= 0 count_down= 1 enable = 1 counter=210
+                 620 clk = 0 reset= 0 count_down= 1 enable = 1 counter=210
+                 625 clk = 1 reset= 0 count_down= 1 enable = 1 counter=209
+                 630 clk = 0 reset= 0 count_down= 1 enable = 1 counter=209
+                 635 clk = 1 reset= 0 count_down= 1 enable = 1 counter=208
+                 640 clk = 0 reset= 0 count_down= 1 enable = 1 counter=208
+                 645 clk = 1 reset= 0 count_down= 1 enable = 1 counter=207
+                 650 clk = 0 reset= 0 count_down= 1 enable = 1 counter=207
+                 655 clk = 1 reset= 0 count_down= 1 enable = 1 counter=206
+                 660 clk = 0 reset= 0 count_down= 1 enable = 1 counter=206
+                 665 clk = 1 reset= 0 count_down= 1 enable = 1 counter=205
+                 670 clk = 0 reset= 0 count_down= 0 enable = 1 counter=205
+                 675 clk = 1 reset= 0 count_down= 0 enable = 1 counter=206
+                 680 clk = 0 reset= 0 count_down= 0 enable = 1 counter=206
+                 685 clk = 1 reset= 0 count_down= 0 enable = 1 counter=207
+                 690 clk = 0 reset= 0 count_down= 0 enable = 1 counter=207
+                 695 clk = 1 reset= 1 count_down= 0 enable = 1 counter=  0
+                 700 clk = 0 reset= 1 count_down= 0 enable = 1 counter=  0
+                 705 clk = 1 reset= 1 count_down= 0 enable = 1 counter=  0
+                 710 clk = 0 reset= 1 count_down= 0 enable = 1 counter=  0
+                 715 clk = 1 reset= 1 count_down= 0 enable = 1 counter=  0
+                 720 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  0
+                 725 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  1
+                 730 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  1
+                 735 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  2
+                 740 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  2
+                 745 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  3
+                 750 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  3
+                 755 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  4
+                 760 clk = 0 reset= 0 count_down= 0 enable = 1 counter=  4
+                 765 clk = 1 reset= 0 count_down= 0 enable = 1 counter=  5
+                 770 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 775 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 780 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 785 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 790 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 795 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 800 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 805 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 810 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 815 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 820 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 825 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 830 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 835 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 840 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 845 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 850 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 855 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 860 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 865 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 870 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 875 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+                 880 clk = 0 reset= 0 count_down= 0 enable = 0 counter=  5
+                 885 clk = 1 reset= 0 count_down= 0 enable = 0 counter=  5
+$finish called from file "bit8_binary_counter_tb.v", line 43.
+$finish at simulation time                  890
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 890
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Sun Feb 13 21:06:25 2022

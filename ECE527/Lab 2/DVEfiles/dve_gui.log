@@ -1,0 +1,7 @@
+The file '/home/users7/kg867678/527LSP22/Lab2/vcdplus.vpd' was opened successfully.
+Warning: [VPD-WARN_TRUNCATED_VPD_FILE] VPD file appears to be truncated.
+  Suspect VPD file corruption possibly due to abnormal simulation termination 
+  or system file I/O error where VPD file is being written.  VPD file data up 
+  to time 2690252010 will still be read.
+  Check the simulation log to see if there were any VPD related error 
+  messages.

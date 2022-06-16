@@ -1,0 +1,2 @@
+Error: Cannot find the design 'fsm' in the library 'WORK'. (LBR-0)
+0

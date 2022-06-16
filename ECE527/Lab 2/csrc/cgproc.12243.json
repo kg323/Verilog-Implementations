@@ -1,0 +1,112 @@
+{
+    "CompUnits": {
+        "sCbUH_d": {
+            "checksum": 0,
+            "out": "sCbUH_d.o",
+            "mod": "Lab2_1_tb",
+            "archive": "archive.10/_12243_archive_1.a",
+            "bytes": 14014,
+            "text": 2701,
+            "mode": 4
+        }
+    },
+    "Modules": {
+        "Lab2_1_tb": {
+            "start_perf": [
+                0.48980522155761719,
+                0.063296000000000005,
+                0.054788000000000003,
+                208512,
+                221116,
+                1613024687.4245181,
+                43893006967221782
+            ],
+            "child_modules": {},
+            "end_perf": [
+                0.55239009857177734,
+                0.075060000000000002,
+                0.061120000000000001,
+                212824,
+                221116,
+                43893007186554370,
+                12884901889,
+                0
+            ],
+            "Compiled Times": 10,
+            "Compiled": "Yes",
+            "nMops": 624,
+            "nQuads": 344,
+            "nRouts": 29
+        },
+        "...MASTER...": {
+            "start_perf": [
+                0.45683813095092773,
+                0.058765999999999999,
+                0.052235999999999998,
+                207184,
+                221116,
+                1613024687.391551,
+                43893006851661234
+            ],
+            "child_modules": {
+                "Lab2_1_tb": 1
+            },
+            "end_perf": [
+                0.48957014083862305,
+                0.063296000000000005,
+                0.054565000000000002,
+                208512,
+                221116,
+                43893006966464806,
+                0,
+                0
+            ],
+            "nMops": 0,
+            "nQuads": 0,
+            "nRouts": 5
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.10/_12243_archive_1.a",
+            "objects": [
+                [
+                    "sCbUH_d.o",
+                    14014
+                ],
+                [
+                    "amcQwB.o",
+                    98730
+                ]
+            ],
+            "size": 112744
+        }
+    ],
+    "stat": {
+        "ru_self_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.079972000000000001,
+            "ru_stime_sec": 0.065922999999999995,
+            "ru_nivcsw": 34,
+            "ru_minflt": 24472,
+            "ru_maxrss_kb": 73192,
+            "ru_nvcsw": 316
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.029576999999999999,
+            "ru_stime_sec": 0.028842,
+            "ru_nivcsw": 8,
+            "ru_minflt": 6907,
+            "ru_maxrss_kb": 22052,
+            "ru_nvcsw": 22
+        },
+        "cpu_cycles_end": 43893007436842162,
+        "peak_mem_kb": 221116
+    }
+}

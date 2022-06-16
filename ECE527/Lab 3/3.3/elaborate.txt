@@ -1,0 +1,7 @@
+Running PRESTO HDLC
+Warning:  ./clock.v:108: Net led[0] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Presto compilation completed successfully.
+Warning: Overwriting design file '/home/users7/kg867678/527LSP22/Lab3/clock.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'clock'.
+1

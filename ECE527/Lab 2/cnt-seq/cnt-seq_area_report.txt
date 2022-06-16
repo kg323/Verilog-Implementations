@@ -1,0 +1,32 @@
+report_area
+ 
+****************************************
+Report : area
+Design : count_zeros
+Version: O-2018.06-SP1
+Date   : Sun Feb 13 20:59:38 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    lsi_10k (File: /opt/synopsys/syn/O-2018.06-SP1/libraries/syn/lsi_10k.db)
+
+Number of ports:                           10
+Number of nets:                            79
+Number of cells:                           65
+Number of combinational cells:             53
+Number of sequential cells:                12
+Number of macros/black boxes:               0
+Number of buf/inv:                         12
+Number of references:                      18
+
+Combinational area:                 86.000000
+Buf/Inv area:                       12.000000
+Noncombinational area:              80.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   166.000000
+Total area:                 undefined
+1

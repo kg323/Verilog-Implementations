@@ -1,0 +1,45 @@
+
+read_verilog RAM.sv
+read_verilog counter.v
+current_design RAM
+link
+
+# now set create clock spec  
+# There are many other clock properties that could be set eg  
+# set_clock_latency  
+# set_propagated_clock  
+# set_clock_uncertainty  
+# set_clock_transition  
+
+
+#100MHz clock = 10
+create_clock clk -period 10 
+set_clock_uncertainty -setup 1.0 clk
+
+
+# set max area allowed  
+#set_max_area 500
+
+# this compiles (synthesizes) the verilog file  
+
+compile > compile.txt
+
+# if compile procedes with no errors then create reports  
+
+report_area > RAM_area_report.txt
+report_timing > RAM_timing_report.txt
+
+# write netlist  files for simulation and for layout  
+change_names -rules verilog -hierarchy
+write_file -format verilog -hierarchy -output "RAM_net.v"
+write_file -format ddc -hierarchy -output "RAM_net.ddc"
+write_file -f verilog -o "netlist.v"
+
+
+write_sdf "RAM.sdf"
+
+report_net > net.txt
+
+
+#to get out of dc_shell
+#exit

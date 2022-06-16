@@ -1,0 +1,112 @@
+{
+    "stat": {
+        "peak_mem_kb": 221172,
+        "ru_self_end": {
+            "ru_nvcsw": 271,
+            "ru_utime_sec": 0.089596999999999996,
+            "ru_stime_sec": 0.057519000000000001,
+            "ru_maxrss_kb": 67972,
+            "ru_minflt": 26777,
+            "ru_majflt": 0,
+            "ru_nivcsw": 38
+        },
+        "ru_childs_end": {
+            "ru_nvcsw": 22,
+            "ru_utime_sec": 0.032622999999999999,
+            "ru_stime_sec": 0.029904,
+            "ru_maxrss_kb": 15436,
+            "ru_minflt": 6907,
+            "ru_majflt": 0,
+            "ru_nivcsw": 8
+        },
+        "cpu_cycles_end": 51132281302609568
+    },
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.34052395820617676,
+                0.061260000000000002,
+                0.043217999999999999,
+                207240,
+                221172,
+                1615090697.9579179,
+                51132280711643938
+            ],
+            "nRouts": 5,
+            "child_modules": {
+                "TOP_tb": 1
+            },
+            "end_perf": [
+                0.3727869987487793,
+                0.064286999999999997,
+                0.047661000000000002,
+                208928,
+                221172,
+                51132280824726266,
+                0,
+                0
+            ],
+            "nQuads": 0,
+            "nMops": 0
+        },
+        "TOP_tb": {
+            "Compiled": "Yes",
+            "start_perf": [
+                0.37302708625793457,
+                0.064286999999999997,
+                0.047889000000000001,
+                208928,
+                221172,
+                1615090697.9904211,
+                51132280825530388
+            ],
+            "nRouts": 55,
+            "child_modules": {},
+            "end_perf": [
+                0.44156002998352051,
+                0.082994999999999999,
+                0.053835000000000001,
+                213464,
+                221172,
+                51132281065702470,
+                21474836481,
+                0
+            ],
+            "Compiled Times": 7,
+            "nQuads": 414,
+            "nMops": 804
+        }
+    },
+    "CompUnits": {
+        "KerAg_d": {
+            "mod": "TOP_tb",
+            "bytes": 18644,
+            "out": "KerAg_d.o",
+            "archive": "archive.6/_15943_archive_1.a",
+            "checksum": 0,
+            "text": 5103,
+            "mode": 4
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.6/_15943_archive_1.a",
+            "objects": [
+                [
+                    "KerAg_d.o",
+                    18644
+                ],
+                [
+                    "amcQwB.o",
+                    99016
+                ]
+            ],
+            "size": 117660
+        }
+    ]
+}

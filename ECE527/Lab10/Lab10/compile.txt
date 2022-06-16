@@ -1,0 +1,102 @@
+Warning: Design 'RAM' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | O-2018.06-DWBB_201806.1 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 29 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'counter_0'
+  Processing 'RAM'
+Warning: Cell 'U4/U1' (*GEN*12) cannot be exactly translated 1 for 1 into target library.  Ignoring set_compile_directives. (TRANS-9)
+Information: Building the design 'I1025_NS'. (HDL-193)
+Warning: Cannot find the design 'I1025_NS' in the library 'WORK'. (LBR-1)
+Information: Building the design 'D12I1025_NS'. (HDL-193)
+Warning: Cannot find the design 'D12I1025_NS' in the library 'WORK'. (LBR-1)
+Information: Building the design 'SRAM1RW1024x8'. (HDL-193)
+Warning: Cannot find the design 'SRAM1RW1024x8' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'I1025_NS' in 'RAM'. (LINK-5)
+Warning: Unable to resolve reference 'D12I1025_NS' in 'RAM'. (LINK-5)
+Warning: Unable to resolve reference 'SRAM1RW1024x8' in 'RAM'. (LINK-5)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'counter_1_DW01_inc_0'
+  Processing 'counter_0_DW01_inc_0'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     381.5      0.00       0.0       0.0                          
+    0:00:01     381.5      0.00       0.0       0.0                          
+    0:00:01     381.5      0.00       0.0       0.0                          
+    0:00:01     381.5      0.00       0.0       0.0                          
+    0:00:01     381.5      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     358.9      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+    0:00:01     356.8      0.00       0.0       0.0                          
+Loading db file '/opt/ECE_Lib/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_tt1p05v25c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1

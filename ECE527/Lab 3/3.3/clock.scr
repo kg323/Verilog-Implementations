@@ -1,0 +1,70 @@
+#********************************************************************** 
+#			Count.v		 
+#********************************************************************** 							 		 
+# The Verilog code implementing this example is contained in file 	 
+# clock.v								 						 
+#********************************************************************** 
+# First, set up the path to the libraries. To use a different 		 
+# technology library, these variables may be changed. 			 
+#  									 
+# (no need as these are already set in .synopsis_dc.setup ) 
+#********************************************************************** 
+#search_path = { ., synopsys_root + /libraries/syn}
+#target_library = {class.db}
+#symbol_library = {class.sdb}
+#link_path = {class.db}
+#**********************************************************************				 
+# The read command is used to read in the Verilog source file.	 	 
+#  									 
+#	The read command is described in the Design Compiler Command	 
+# 	Reference Manual.						 							 
+#********************************************************************** 
+
+
+analyze -f verilog clock.v
+analyze -f verilog clockdiv.v
+analyze -f verilog display_digit.v
+analyze -f verilog display_value.v
+analyze -f verilog tim.v
+analyze -f verilog clock_tb.v
+
+
+elaborate clock > elaborate.txt
+
+
+check_design > design.txt
+
+# now set create clock spec  
+# There are many other clock properties that could be set eg  
+# set_clock_latency  
+# set_propagated_clock  
+# set_clock_uncertainty  
+# set_clock_transition  
+
+create_clock clk1 -period 9 #111 MHz
+#set_clock_uncertainty -setup 2.0 sys_clock
+
+
+# set max area allowed  
+#set_max_area 500
+
+# this compiles (synthesizes) the verilog file  
+
+compile > compile.txt
+
+# if compile procedes with no errors then create reports  
+
+report_area > clock_area_report.txt
+report_timing > clock_timing_report.txt
+
+# write netlist  files for simulation and for layout  
+change_names -rules verilog -hierarchy
+write_file -format verilog -hierarchy -output "clock_net.v"
+write_file -format ddc -hierarchy -output "clock_net.ddc"
+write_file -f verilog -o "netlist.v"
+
+#report_net > net.txt
+
+
+#to get out of dc_shell
+#exit

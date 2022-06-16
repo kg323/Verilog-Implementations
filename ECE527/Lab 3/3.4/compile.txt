@@ -1,0 +1,94 @@
+
+Information: There are 26 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'display_digit'
+  Processing 'display_value'
+  Processing 'clockdiv_DW01_inc_1'
+  Processing 'clockdiv'
+  Processing 'tim'
+  Processing 'clock'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Mapping Optimization (Phase 7)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00    1458.0      0.48       4.3       0.0                          
+    0:00:00    1456.0      0.51       4.6       0.0                          
+    0:00:00    1456.0      0.51       4.6       0.0                          
+    0:00:00    1453.0      0.51       4.1       0.0                          
+    0:00:00    1453.0      0.51       4.1       0.0                          
+    0:00:00    1211.0      0.59       3.7       0.0                          
+    0:00:00    1214.0      0.49       2.5       0.0                          
+    0:00:00    1214.0      0.49       2.5       0.0                          
+    0:00:00    1218.0      0.49       2.5       0.0                          
+    0:00:00    1217.0      0.49       2.5       0.0                          
+    0:00:00    1217.0      0.49       2.5       0.0                          
+    0:00:00    1217.0      0.49       2.5       0.0                          
+    0:00:00    1217.0      0.49       2.5       0.0                          
+    0:00:00    1217.0      0.49       2.5       0.0                          
+    0:00:00    1217.0      0.49       2.5       0.0                          
+    0:00:00    1217.0      0.49       2.5       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00    1217.0      0.49       2.5       0.0                          
+    0:00:00    1224.0      0.40       2.8       0.0 tim/hours_reg_3_/K       
+    0:00:01    1227.0      0.25       1.2       0.0 tim/hours_reg_3_/K       
+    0:00:01    1240.0      0.00       0.0       0.0                          
+    0:00:01    1237.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01    1237.0      0.00       0.0       0.0                          
+    0:00:01    1237.0      0.00       0.0       0.0                          
+    0:00:01    1212.0      0.00       0.0       0.0                          
+    0:00:01    1200.0      0.00       0.0       0.0                          
+    0:00:01    1195.0      0.00       0.0       0.0                          
+    0:00:01    1194.0      0.00       0.0       0.0                          
+    0:00:01    1193.0      0.00       0.0       0.0                          
+    0:00:01    1193.0      0.00       0.0       0.0                          
+    0:00:01    1193.0      0.00       0.0       0.0                          
+    0:00:01    1177.0      0.37       0.4       0.0                          
+    0:00:01    1174.0      0.37       0.6       0.0                          
+    0:00:01    1174.0      0.37       0.6       0.0                          
+    0:00:01    1174.0      0.37       0.6       0.0                          
+    0:00:01    1174.0      0.37       0.6       0.0                          
+    0:00:01    1174.0      0.37       0.6       0.0                          
+    0:00:01    1174.0      0.37       0.6       0.0                          
+    0:00:01    1174.0      0.00       0.0       0.0                          
+Loading db file '/opt/synopsys/syn/O-2018.06-SP1/libraries/syn/lsi_10k.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1

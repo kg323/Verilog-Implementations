@@ -1,0 +1,50 @@
+{
+    "saed32_xbuf_lvt": [
+        "saed32_xbuf_lvt",
+        "Gjg4Z",
+        "udp",
+        8
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        4
+    ],
+    "D12I1025_NS": [
+        "D12I1025_NS",
+        "z4LDy",
+        "module",
+        7
+    ],
+    "netlist_tb": [
+        "netlist_tb",
+        "FmubH",
+        "module",
+        3
+    ],
+    "saed32_dff_pos_lvt": [
+        "saed32_dff_pos_lvt",
+        "Z0GwU",
+        "udp",
+        9
+    ],
+    "OAI22X1_RVT": [
+        "OAI22X1_RVT",
+        "fhL1z",
+        "module",
+        6
+    ],
+    "INVX1_RVT": [
+        "INVX1_RVT",
+        "NnNIf",
+        "module",
+        5
+    ],
+    "SRAM1RW1024x8_1bit": [
+        "SRAM1RW1024x8_1bit",
+        "q4pYg",
+        "module",
+        2
+    ]
+}

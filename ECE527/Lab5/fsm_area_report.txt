@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : fsm
+Version: O-2018.06-SP1
+Date   : Mon Apr  4 12:34:58 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    lsi_10k (File: /opt/synopsys/syn/O-2018.06-SP1/libraries/syn/lsi_10k.db)
+
+Number of ports:                            6
+Number of nets:                            23
+Number of cells:                           16
+Number of combinational cells:             10
+Number of sequential cells:                 6
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                      11
+
+Combinational area:                 16.000000
+Buf/Inv area:                        2.000000
+Noncombinational area:              36.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                    52.000000
+Total area:                 undefined
+1

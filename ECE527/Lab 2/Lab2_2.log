@@ -1,0 +1,22 @@
+Command: /home/users7/kg867678/526LSP21/Lab2/./simv -l Lab2_2.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Feb 10 20:47 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0: in1 = x, in2 = x, UUT.A1 = x, UUT.A2 = x, UUT.NT = x , UUT.O1 | out = xx
+                  15: in1 = 0, in2 = 0, UUT.A1 = x, UUT.A2 = x, UUT.NT = x , UUT.O1 | out = xx
+                  18: in1 = 0, in2 = 0, UUT.A1 = 0, UUT.A2 = 0, UUT.NT = 1 , UUT.O1 | out = xx
+                  20: in1 = 0, in2 = 0, UUT.A1 = 0, UUT.A2 = 0, UUT.NT = 1 , UUT.O1 | out = 1x
+                  27: in1 = 0, in2 = 0, UUT.A1 = 0, UUT.A2 = 0, UUT.NT = 1 , UUT.O1 | out = 11
+                  30: in1 = 0, in2 = 1, UUT.A1 = 0, UUT.A2 = 0, UUT.NT = 1 , UUT.O1 | out = 11
+                  45: in1 = 1, in2 = 0, UUT.A1 = 0, UUT.A2 = 0, UUT.NT = 1 , UUT.O1 | out = 11
+                  48: in1 = 1, in2 = 0, UUT.A1 = 0, UUT.A2 = 0, UUT.NT = 0 , UUT.O1 | out = 11
+                  50: in1 = 1, in2 = 0, UUT.A1 = 0, UUT.A2 = 0, UUT.NT = 0 , UUT.O1 | out = 01
+                  60: in1 = 1, in2 = 1, UUT.A1 = 0, UUT.A2 = 0, UUT.NT = 0 , UUT.O1 | out = 01
+                  63: in1 = 1, in2 = 1, UUT.A1 = 1, UUT.A2 = 0, UUT.NT = 0 , UUT.O1 | out = 01
+$finish called from file "Lab2_2_tb.v", line 32.
+$finish at simulation time                  750
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 75000 ps
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Wed Feb 10 20:47:35 2021

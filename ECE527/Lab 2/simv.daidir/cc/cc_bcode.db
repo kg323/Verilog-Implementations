@@ -1,0 +1,2 @@
+sid binary_counter_tb
+bcid 0 0 WIDTH,27 CALL_ARG_VAL,2,0 OPT_CONST,249999 WIDTH,1 M_EQU RET

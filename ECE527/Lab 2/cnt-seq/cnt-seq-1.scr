@@ -1,0 +1,112 @@
+#********************************************************************** 
+#			Count Zeros - Sequential			 
+#********************************************************************** 
+#  									 
+# This "count zeros" example is from a design problem where an 8-bit 	 
+# value is given, and the circuit is to determine two things: first, 	 
+# that there is exactly one sequence of 0s in the value, and second, 	 
+# the number of 0s in that sequence (if any). 
+#  									 
+# A legal value is one that contains only one consecutive series of 	 
+# zeros.  If more than one series of zeros appears, then the value is 	 
+# illegal.  A value consisting entirely of ones is defined as a legal 	 
+# value.  If a value is illegal, then the zero counter is reset (to 	 
+# zero).  For example, the value 00000000 is legal and has 8 zeros; 	 
+# value 11000111 is legal and has 3 zeros; value 001111100 is not 	 
+# legal.								 
+#  									 
+# This example shows a sequential (clocked) variant of the "count 	 
+# zeros" problem. The circuit accepts the 8-bit data value serially, 	 
+# one bit per clock cycle, using the DATA and CLK inputs.  The other 	 
+# two inputs are RESET, which resets the circuit, and READ, which 	 
+# causes the circuit to begin accepting the data bits.			 
+#  									 
+# The circuit's three outputs are: is_legal, which is true if the 	 
+# data was a legal value, data_ready, which is true at the first 	 
+# illegal bit or when all eight bits have been processed, and zeros, 	 
+# the number of zeros if is_legal is true.				 
+#  									 
+# This example shows a sequential (serial) approach to counting 	 
+# the zeros; the next example shows a combinational (parallel)		 
+#  approach.								 
+#  									 
+# The Verilog code implementing this example is contained in file 	 
+# cnt-seq.v								 
+#  									 
+#********************************************************************** 
+# to run this   
+# put cnt-seq.scr and cnt-seq.v into a folder , eg ~/cnt-seq  
+# cd ~/cnt-seq 
+# dc_shell
+# enter each uncommented command listed below  
+# or to run all of these do the following at teh dc_shell prompt  
+# source cnt-seq.scr
+
+
+#********************************************************************** 
+#  									 
+#	 
+# First, set up the path to the libraries. To use a different 		 
+# technology library, these variables may be changed. 			 
+#  									 
+# (no need as these are already set in .synopsis_dc.setup ) 
+#********************************************************************** 
+
+#search_path = { ., synopsys_root + /libraries/syn}
+#target_library = {class.db}
+#symbol_library = {class.sdb}
+#link_path = {class.db}
+#********************************************************************** 
+#  									 
+# The read command is used to read in the Verilog source file.	 	 
+#  									 
+#	The read command is described in the Design Compiler Command	 
+# 	Reference Manual.						 
+#  									 
+#********************************************************************** 
+
+read_verilog  cnt-seq.v
+
+
+# now set create clock spec  
+# There are many other clock properties that could be set eg  
+# set_clock_latency  
+# set_propagated_clock  
+# set_clock_uncertainty  
+# set_clock_transition  
+
+create_clock clk -period 10
+
+# set opererating condition worst cse, typical or best case  
+
+set_operating_conditions WCCOM
+# set drive strength on signals connected to inputs  
+set_drive 1 data
+# set drive strength on signals connected to outputs  
+set_load 20 data_ready
+# set max allowable delays  
+set_input_delay -max 1.35 -clock clk {data  reset read }
+set_output_delay -max 2.4 -clock clk  is_legal
+set_output_delay -max 2.4 -clock clk  data_ready
+#set_output_delay -max 2.4 -clock clk  zeroes 
+
+
+# set max area allowed  
+max_area 175
+
+# this compiles (synthesizes) the verilog file  
+compile
+# if compile procedes with no errors then create reports  
+
+report -area > cnt-seq_area_report.txt
+report -timing > cnt-seq_timing_report.txt
+
+# write netlist  files for simulation and for layout  
+change_names -rules verilog -hierarchy
+write_file -format verilog -hierarchy -output "cnt-seq_net.v"
+write_file -format ddc -hierarchy -output "cnt-seq_net.ddc"
+
+#to get out of dc_shell
+#exit
+
+

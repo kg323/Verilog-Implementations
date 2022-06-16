@@ -1,0 +1,32 @@
+Running PRESTO HDLC
+
+Statistics for case statements in always block at line 26 in file
+	'./fsm.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            27            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fsm line 17 in file
+		'./fsm.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   curr_state_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fsm line 77 in file
+		'./fsm.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     signal_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Overwriting design file '/home/users7/kg867678/527LSP22/Lab5/fsm.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'fsm'.
+1

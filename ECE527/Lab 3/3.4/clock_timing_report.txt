@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : clock
+Version: O-2018.06-SP1
+Date   : Sun Mar 13 21:18:59 2022
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: tim/secs_reg_3_
+              (rising edge-triggered flip-flop clocked by clk1)
+  Endpoint: tim/hours_reg_3_
+            (rising edge-triggered flip-flop clocked by clk1)
+  Path Group: clk1
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk1 (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  tim/secs_reg_3_/CP (FJK2)                0.00       0.00 r
+  tim/secs_reg_3_/Q (FJK2)                 1.78       1.78 r
+  tim/U85/Z (ND2)                          0.26       2.04 f
+  tim/U86/Z (IVA)                          0.67       2.71 r
+  tim/U42/Z (ND4P)                         0.53       3.24 f
+  tim/U32/Z (IVA)                          0.38       3.62 r
+  tim/U31/Z (AO3P)                         0.53       4.15 f
+  tim/U10/Z (ND2)                          0.64       4.79 r
+  tim/U136/Z (ND2)                         0.30       5.09 f
+  tim/U137/Z (AO1P)                        1.70       6.79 r
+  tim/U25/Z (AO7)                          0.49       7.29 f
+  tim/U26/Z (IVA)                          0.31       7.60 r
+  tim/hours_reg_3_/K (FJK2)                0.00       7.60 r
+  data arrival time                                   7.60
+
+  clock clk1 (rise edge)                   9.00       9.00
+  clock network delay (ideal)              0.00       9.00
+  tim/hours_reg_3_/CP (FJK2)               0.00       9.00 r
+  library setup time                      -1.40       7.60
+  data required time                                  7.60
+  -----------------------------------------------------------
+  data required time                                  7.60
+  data arrival time                                  -7.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1
