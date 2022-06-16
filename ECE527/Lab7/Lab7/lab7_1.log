@@ -1,0 +1,86 @@
+Command: /home/users7/kg867678/527LSP22/Lab7/./simv -l lab7_1.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Apr 24 13:52 2022
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0 clk = 0 reset= 1 b1= 0 b2= 0 b3= 0 signal=x
+                 100 clk = 0 reset= 1 b1= 0 b2= 0 b3= 0 signal=0
+                 200 clk = 0 reset= 1 b1= 0 b2= 0 b3= 0 signal=0
+                 300 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                 400 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                 500 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                 600 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                 700 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                 800 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                 900 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1000 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1100 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1200 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1300 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1400 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1500 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1600 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1700 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1800 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                1900 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                2000 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                2100 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                2200 clk = 0 reset= 0 b1= 0 b2= 0 b3= 0 signal=0
+                2300 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                2400 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                2500 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                2600 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=1
+                2700 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                2800 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                2900 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                3000 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=1
+                3100 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                3200 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                3300 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                3400 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=1
+                3500 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                3600 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                3700 clk = 0 reset= 0 b1= 1 b2= 0 b3= 0 signal=0
+                3800 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=1
+                3900 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=0
+                4000 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=0
+                4100 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=1
+                4200 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=1
+                4300 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=0
+                4400 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=0
+                4500 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=1
+                4600 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=1
+                4700 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=0
+                4800 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=0
+                4900 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=1
+                5000 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=1
+                5100 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=0
+                5200 clk = 0 reset= 0 b1= 1 b2= 0 b3= 1 signal=0
+                5300 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=1
+                5400 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                5500 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                5600 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                5700 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                5800 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=1
+                5900 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6000 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6100 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6200 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6300 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6400 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6500 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6600 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=1
+                6700 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6800 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                6900 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                7000 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                7100 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                7200 clk = 0 reset= 0 b1= 0 b2= 1 b3= 0 signal=0
+                7300 clk = 0 reset= 0 b1= 0 b2= 1 b3= 1 signal=0
+                7400 clk = 0 reset= 0 b1= 0 b2= 1 b3= 1 signal=1
+$finish called from file "fsm_tb.v", line 38.
+$finish at simulation time              7420000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7420000 ps
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Sun Apr 24 13:52:48 2022

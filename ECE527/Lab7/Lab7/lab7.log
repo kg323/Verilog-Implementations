@@ -1,0 +1,203 @@
+Command: /home/users7/kg867678/526LSP21/Lab7/./simv -l lab7.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Apr 11 21:16 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+
+Warning-[STASKW_RMIEAFL] Illegal entry
+REG_TEST2.v, 27
+  Illegal entry found at file MEM_FILE.txt line 2 while executing $readmem.
+  Please ensure that the file has proper entries.
+
+                   0 DATA =   z, ADDR =  0, OE = 0, WS = 0, CS = 1
+                  10 DATA =  31, ADDR =  0, OE = 0, WS = 0, CS = 0
+                  18 DATA =  31, ADDR =  0, OE = 0, WS = 1, CS = 0
+                  22 DATA =  31, ADDR =  0, OE = 0, WS = 0, CS = 0
+                  30 DATA =  31, ADDR =  0, OE = 1, WS = 0, CS = 0
+                  34 DATA =  32, ADDR =  1, OE = 0, WS = 0, CS = 0
+                  42 DATA =  32, ADDR =  1, OE = 0, WS = 1, CS = 0
+                  46 DATA =  32, ADDR =  1, OE = 0, WS = 0, CS = 0
+                  54 DATA =  32, ADDR =  1, OE = 1, WS = 0, CS = 0
+                  58 DATA =  33, ADDR =  2, OE = 0, WS = 0, CS = 0
+                  66 DATA =  33, ADDR =  2, OE = 0, WS = 1, CS = 0
+                  70 DATA =  33, ADDR =  2, OE = 0, WS = 0, CS = 0
+                  78 DATA =  33, ADDR =  2, OE = 1, WS = 0, CS = 0
+                  82 DATA =  34, ADDR =  3, OE = 0, WS = 0, CS = 0
+                  90 DATA =  34, ADDR =  3, OE = 0, WS = 1, CS = 0
+                  94 DATA =  34, ADDR =  3, OE = 0, WS = 0, CS = 0
+                 102 DATA =  34, ADDR =  3, OE = 1, WS = 0, CS = 0
+                 106 DATA =  35, ADDR =  4, OE = 0, WS = 0, CS = 0
+                 114 DATA =  35, ADDR =  4, OE = 0, WS = 1, CS = 0
+                 118 DATA =  35, ADDR =  4, OE = 0, WS = 0, CS = 0
+                 126 DATA =  35, ADDR =  4, OE = 1, WS = 0, CS = 0
+                 130 DATA =  36, ADDR =  5, OE = 0, WS = 0, CS = 0
+                 138 DATA =  36, ADDR =  5, OE = 0, WS = 1, CS = 0
+                 142 DATA =  36, ADDR =  5, OE = 0, WS = 0, CS = 0
+                 150 DATA =  36, ADDR =  5, OE = 1, WS = 0, CS = 0
+                 154 DATA =  37, ADDR =  6, OE = 0, WS = 0, CS = 0
+                 162 DATA =  37, ADDR =  6, OE = 0, WS = 1, CS = 0
+                 166 DATA =  37, ADDR =  6, OE = 0, WS = 0, CS = 0
+                 174 DATA =  37, ADDR =  6, OE = 1, WS = 0, CS = 0
+                 178 DATA =  38, ADDR =  7, OE = 0, WS = 0, CS = 0
+                 186 DATA =  38, ADDR =  7, OE = 0, WS = 1, CS = 0
+                 190 DATA =  38, ADDR =  7, OE = 0, WS = 0, CS = 0
+                 198 DATA =  38, ADDR =  7, OE = 1, WS = 0, CS = 0
+                 202 DATA =  39, ADDR =  8, OE = 0, WS = 0, CS = 0
+                 210 DATA =  39, ADDR =  8, OE = 0, WS = 1, CS = 0
+                 214 DATA =  39, ADDR =  8, OE = 0, WS = 0, CS = 0
+                 222 DATA =  39, ADDR =  8, OE = 1, WS = 0, CS = 0
+                 226 DATA =  40, ADDR =  9, OE = 0, WS = 0, CS = 0
+                 234 DATA =  40, ADDR =  9, OE = 0, WS = 1, CS = 0
+                 238 DATA =  40, ADDR =  9, OE = 0, WS = 0, CS = 0
+                 246 DATA =  40, ADDR =  9, OE = 1, WS = 0, CS = 0
+                 250 DATA =  41, ADDR = 10, OE = 0, WS = 0, CS = 0
+                 258 DATA =  41, ADDR = 10, OE = 0, WS = 1, CS = 0
+                 262 DATA =  41, ADDR = 10, OE = 0, WS = 0, CS = 0
+                 270 DATA =  41, ADDR = 10, OE = 1, WS = 0, CS = 0
+                 274 DATA =  42, ADDR = 11, OE = 0, WS = 0, CS = 0
+                 282 DATA =  42, ADDR = 11, OE = 0, WS = 1, CS = 0
+                 286 DATA =  42, ADDR = 11, OE = 0, WS = 0, CS = 0
+                 294 DATA =  42, ADDR = 11, OE = 1, WS = 0, CS = 0
+                 298 DATA =  43, ADDR = 12, OE = 0, WS = 0, CS = 0
+                 306 DATA =  43, ADDR = 12, OE = 0, WS = 1, CS = 0
+                 310 DATA =  43, ADDR = 12, OE = 0, WS = 0, CS = 0
+                 318 DATA =  43, ADDR = 12, OE = 1, WS = 0, CS = 0
+                 322 DATA =  44, ADDR = 13, OE = 0, WS = 0, CS = 0
+                 330 DATA =  44, ADDR = 13, OE = 0, WS = 1, CS = 0
+                 334 DATA =  44, ADDR = 13, OE = 0, WS = 0, CS = 0
+                 342 DATA =  44, ADDR = 13, OE = 1, WS = 0, CS = 0
+                 346 DATA =  45, ADDR = 14, OE = 0, WS = 0, CS = 0
+                 354 DATA =  45, ADDR = 14, OE = 0, WS = 1, CS = 0
+                 358 DATA =  45, ADDR = 14, OE = 0, WS = 0, CS = 0
+                 366 DATA =  45, ADDR = 14, OE = 1, WS = 0, CS = 0
+                 370 DATA =  46, ADDR = 15, OE = 0, WS = 0, CS = 0
+                 378 DATA =  46, ADDR = 15, OE = 0, WS = 1, CS = 0
+                 382 DATA =  46, ADDR = 15, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 00
+                 390 DATA =  46, ADDR = 15, OE = 1, WS = 0, CS = 0
+DATA = xx, ADDR = 01
+DATA = xx, ADDR = 02
+                 394 DATA =  47, ADDR = 16, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 03
+DATA = 58, ADDR = 04
+DATA = ed, ADDR = 05
+DATA = b7, ADDR = 06
+                 402 DATA =  47, ADDR = 16, OE = 0, WS = 1, CS = 0
+DATA = xx, ADDR = 07
+DATA = xx, ADDR = 08
+                 406 DATA =  47, ADDR = 16, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 09
+DATA = xx, ADDR = 0a
+DATA = xx, ADDR = 0b
+DATA = xx, ADDR = 0c
+                 414 DATA =  47, ADDR = 16, OE = 1, WS = 0, CS = 0
+DATA = xx, ADDR = 0d
+DATA = xx, ADDR = 0e
+                 418 DATA =  48, ADDR = 17, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 0f
+DATA = xx, ADDR = 10
+DATA = xx, ADDR = 11
+DATA = xx, ADDR = 12
+                 426 DATA =  48, ADDR = 17, OE = 0, WS = 1, CS = 0
+DATA = xx, ADDR = 13
+DATA = xx, ADDR = 14
+                 430 DATA =  48, ADDR = 17, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 15
+DATA = xx, ADDR = 16
+DATA = xx, ADDR = 17
+DATA = xx, ADDR = 18
+                 438 DATA =  48, ADDR = 17, OE = 1, WS = 0, CS = 0
+DATA = xx, ADDR = 19
+DATA = xx, ADDR = 1a
+                 442 DATA =  49, ADDR = 18, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 1b
+DATA = xx, ADDR = 1c
+DATA = xx, ADDR = 1d
+DATA = xx, ADDR = 1e
+                 450 DATA =  49, ADDR = 18, OE = 0, WS = 1, CS = 0
+DATA = xx, ADDR = 1f
+Original values before scrabmble
+                 454 DATA =  49, ADDR = 18, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 10
+DATA = xx, ADDR = 11
+DATA = xx, ADDR = 12
+DATA = xx, ADDR = 13
+                 462 DATA =  49, ADDR = 18, OE = 1, WS = 0, CS = 0
+DATA = xx, ADDR = 14
+DATA = xx, ADDR = 15
+                 466 DATA =  50, ADDR = 19, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 16
+DATA = xx, ADDR = 17
+                 474 DATA =  50, ADDR = 19, OE = 0, WS = 1, CS = 0
+                 478 DATA =  50, ADDR = 19, OE = 0, WS = 0, CS = 0
+                 486 DATA =  50, ADDR = 19, OE = 1, WS = 0, CS = 0
+                 490 DATA =  51, ADDR = 20, OE = 0, WS = 0, CS = 0
+                 498 DATA =  51, ADDR = 20, OE = 0, WS = 1, CS = 0
+                 502 DATA =  51, ADDR = 20, OE = 0, WS = 0, CS = 0
+                 510 DATA =  51, ADDR = 20, OE = 1, WS = 0, CS = 0
+                 514 DATA =  52, ADDR = 21, OE = 0, WS = 0, CS = 0
+                 522 DATA =  52, ADDR = 21, OE = 0, WS = 1, CS = 0
+                 526 DATA =  52, ADDR = 21, OE = 0, WS = 0, CS = 0
+                 534 DATA =  52, ADDR = 21, OE = 1, WS = 0, CS = 0
+                 538 DATA =  53, ADDR = 22, OE = 0, WS = 0, CS = 0
+                 546 DATA =  53, ADDR = 22, OE = 0, WS = 1, CS = 0
+                 550 DATA =  53, ADDR = 22, OE = 0, WS = 0, CS = 0
+                 558 DATA =  53, ADDR = 22, OE = 1, WS = 0, CS = 0
+                 562 DATA =  54, ADDR = 23, OE = 0, WS = 0, CS = 0
+                 570 DATA =  54, ADDR = 23, OE = 0, WS = 1, CS = 0
+                 574 DATA =  54, ADDR = 23, OE = 0, WS = 0, CS = 0
+                 582 DATA =  54, ADDR = 23, OE = 1, WS = 0, CS = 0
+                 586 DATA =  55, ADDR = 24, OE = 0, WS = 0, CS = 0
+                 594 DATA =  55, ADDR = 24, OE = 0, WS = 1, CS = 0
+                 598 DATA =  55, ADDR = 24, OE = 0, WS = 0, CS = 0
+                 606 DATA =  55, ADDR = 24, OE = 1, WS = 0, CS = 0
+Scrambled values
+DATA = xx, ADDR = 10
+                 610 DATA =  56, ADDR = 25, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 11
+DATA = xx, ADDR = 12
+DATA = xx, ADDR = 13
+DATA = xx, ADDR = 14
+                 618 DATA =  56, ADDR = 25, OE = 0, WS = 1, CS = 0
+DATA = xx, ADDR = 15
+DATA = xx, ADDR = 16
+                 622 DATA =  56, ADDR = 25, OE = 0, WS = 0, CS = 0
+DATA = xx, ADDR = 17
+                 630 DATA =  56, ADDR = 25, OE = 1, WS = 0, CS = 0
+                 634 DATA =  57, ADDR = 26, OE = 0, WS = 0, CS = 0
+                 642 DATA =  57, ADDR = 26, OE = 0, WS = 1, CS = 0
+                 646 DATA =  57, ADDR = 26, OE = 0, WS = 0, CS = 0
+                 654 DATA =  57, ADDR = 26, OE = 1, WS = 0, CS = 0
+                 658 DATA =  58, ADDR = 27, OE = 0, WS = 0, CS = 0
+                 666 DATA =  58, ADDR = 27, OE = 0, WS = 1, CS = 0
+                 670 DATA =  58, ADDR = 27, OE = 0, WS = 0, CS = 0
+                 678 DATA =  58, ADDR = 27, OE = 1, WS = 0, CS = 0
+                 682 DATA =  59, ADDR = 28, OE = 0, WS = 0, CS = 0
+                 690 DATA =  59, ADDR = 28, OE = 0, WS = 1, CS = 0
+                 694 DATA =  59, ADDR = 28, OE = 0, WS = 0, CS = 0
+                 702 DATA =  59, ADDR = 28, OE = 1, WS = 0, CS = 0
+                 706 DATA =  60, ADDR = 29, OE = 0, WS = 0, CS = 0
+                 714 DATA =  60, ADDR = 29, OE = 0, WS = 1, CS = 0
+                 718 DATA =  60, ADDR = 29, OE = 0, WS = 0, CS = 0
+                 726 DATA =  60, ADDR = 29, OE = 1, WS = 0, CS = 0
+                 730 DATA =  61, ADDR = 30, OE = 0, WS = 0, CS = 0
+                 738 DATA =  61, ADDR = 30, OE = 0, WS = 1, CS = 0
+                 742 DATA =  61, ADDR = 30, OE = 0, WS = 0, CS = 0
+                 750 DATA =  61, ADDR = 30, OE = 1, WS = 0, CS = 0
+                 754 DATA =  62, ADDR = 31, OE = 0, WS = 0, CS = 0
+                 762 DATA =  62, ADDR = 31, OE = 0, WS = 1, CS = 0
+                 766 DATA =  62, ADDR = 31, OE = 0, WS = 0, CS = 0
+                 774 DATA =  62, ADDR = 31, OE = 1, WS = 0, CS = 0
+                 778 DATA =  62, ADDR = 31, OE = 0, WS = 0, CS = 0
+                 782 DATA =  35, ADDR =  4, OE = 1, WS = 0, CS = 0
+                 786 DATA =  36, ADDR =  5, OE = 1, WS = 0, CS = 0
+                 790 DATA =  37, ADDR =  6, OE = 1, WS = 0, CS = 0
+                 794 DATA =  38, ADDR =  7, OE = 1, WS = 0, CS = 0
+                 798 DATA =   z, ADDR =  8, OE = 1, WS = 0, CS = 1
+                 802 DATA =  40, ADDR =  9, OE = 1, WS = 0, CS = 0
+                 806 DATA =  41, ADDR = 10, OE = 1, WS = 0, CS = 0
+                 810 DATA =  42, ADDR = 11, OE = 1, WS = 0, CS = 0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 814 ns
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Sun Apr 11 21:16:09 2021

@@ -1,0 +1,125 @@
+{
+    "reusePaths": {},
+    "Modules": {
+        "...MASTER...": {
+            "nMops": 0,
+            "start_perf": [
+                0.38593912124633789,
+                0.069776000000000005,
+                0.045293,
+                207792,
+                222048,
+                1650833491.486881,
+                3126631053917886
+            ],
+            "end_perf": [
+                0.44498014450073242,
+                0.076116000000000003,
+                0.053914999999999998,
+                210756,
+                222048,
+                3126631261038034,
+                0,
+                0
+            ],
+            "child_modules": {
+                "fsm_tb": 1
+            },
+            "nQuads": 0,
+            "nRouts": 5
+        },
+        "fsm_tb": {
+            "significant_routs": [
+                [
+                    39,
+                    "R_VCSgd_IgWWP_27",
+                    6788480,
+                    611,
+                    155
+                ]
+            ],
+            "nMops": 813,
+            "start_perf": [
+                0.44534420967102051,
+                0.076317999999999997,
+                0.054058000000000002,
+                210756,
+                222048,
+                1650833491.5462861,
+                3126631262242786
+            ],
+            "child_modules": {},
+            "end_perf": [
+                0.53028416633605957,
+                0.105436,
+                0.063678999999999999,
+                216240,
+                222048,
+                3126631559821416,
+                12884901889,
+                0
+            ],
+            "Compiled Times": 1,
+            "Compiled": "Yes",
+            "nQuads": 371,
+            "nRouts": 56
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.15/_31853_archive_1.a",
+            "objects": [
+                [
+                    "IgWWP_d.o",
+                    18658
+                ],
+                [
+                    "amcQwB.o",
+                    98582
+                ]
+            ],
+            "size": 117240
+        }
+    ],
+    "CompUnits": {
+        "amcQw_d": {
+            "text": 402,
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 7494,
+            "mode": 4,
+            "checksum": 0
+        },
+        "IgWWP_d": {
+            "text": 5771,
+            "mod": "fsm_tb",
+            "archive": "archive.15/_31853_archive_1.a",
+            "out": "IgWWP_d.o",
+            "bytes": 18658,
+            "mode": 4,
+            "checksum": 0
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_stime_sec": 0.070299,
+            "ru_utime_sec": 0.11268499999999999,
+            "ru_maxrss_kb": 76464,
+            "ru_minflt": 25754,
+            "ru_nvcsw": 321,
+            "ru_majflt": 0,
+            "ru_nivcsw": 34
+        },
+        "ru_childs_end": {
+            "ru_stime_sec": 0.019265000000000001,
+            "ru_utime_sec": 0.023165999999999999,
+            "ru_maxrss_kb": 22276,
+            "ru_minflt": 6925,
+            "ru_nvcsw": 22,
+            "ru_majflt": 0,
+            "ru_nivcsw": 8
+        },
+        "cpu_cycles_end": 3126631905591646,
+        "peak_mem_kb": 222048
+    }
+}

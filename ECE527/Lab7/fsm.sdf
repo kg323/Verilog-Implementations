@@ -1,0 +1,239 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "fsm")
+(DATE "Sun Apr 24 13:36:21 2022")
+(VENDOR "saed32rvt_tt1p05v25c")
+(PROGRAM "Synopsys Design Compiler cmos")
+(VERSION "O-2018.06-SP1")
+(DIVIDER /)
+(VOLTAGE 1.05:1.05:1.05)
+(PROCESS "tt1p05v25c")
+(TEMPERATURE 25.00:25.00:25.00)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "fsm")
+  (INSTANCE)
+  (DELAY
+    (ABSOLUTE
+    (INTERCONNECT curr_state_reg_1_/Q U25/A1 (0.013:0.019:0.019) (0.014:0.019:0.019))
+    (INTERCONNECT curr_state_reg_0_/Q U25/A2 (0.015:0.018:0.018) (0.014:0.017:0.017))
+    (INTERCONNECT curr_state_reg_2_/QN U24/A1 (0.012:0.017:0.017))
+    (INTERCONNECT b2 U24/A2 (0.012:0.014:0.014) (0.011:0.014:0.014))
+    (INTERCONNECT U20/Y U23/A1 (0.009:0.013:0.013) (0.010:0.013:0.013))
+    (INTERCONNECT U19/Y U23/A2 (0.010:0.013:0.013))
+    (INTERCONNECT curr_state_reg_1_/Q U23/A3 (0.014:0.016:0.016))
+    (INTERCONNECT U23/Y signal_reg/D (0.011:0.013:0.013))
+    (INTERCONNECT clk signal_reg/CLK (0.017:0.021:0.021))
+    (INTERCONNECT b3 U20/A1 (0.012:0.014:0.014) (0.013:0.015:0.015))
+    (INTERCONNECT curr_state_reg_0_/Q U20/A2 (0.017:0.021:0.021) (0.016:0.021:0.021))
+    (INTERCONNECT curr_state_reg_2_/Q U19/A1 (0.010:0.013:0.013))
+    (INTERCONNECT b2 U19/A2 (0.013:0.015:0.015) (0.012:0.015:0.015))
+    (INTERCONNECT b1 U19/A3 (0.010:0.013:0.013))
+    (INTERCONNECT curr_state_reg_2_/QN U19/A4 (0.014:0.017:0.017) (0.013:0.017:0.017))
+    (INTERCONNECT curr_state_reg_0_/QN U15/A1 (0.011:0.015:0.015) (0.012:0.015:0.015))
+    (INTERCONNECT curr_state_reg_1_/Q U15/A2 (0.014:0.017:0.017))
+    (INTERCONNECT curr_state_reg_1_/QN U15/A3 (0.010:0.013:0.013))
+    (INTERCONNECT curr_state_reg_0_/Q U15/A4 (0.015:0.018:0.018) (0.014:0.018:0.018))
+    (INTERCONNECT curr_state_reg_1_/Q U12/A1 (0.013:0.018:0.018))
+    (INTERCONNECT curr_state_reg_0_/Q U12/A2 (0.014:0.016:0.016) (0.013:0.016:0.016))
+    (INTERCONNECT U25/Y U11/A1 (0.011:0.013:0.013) (0.011:0.013:0.013))
+    (INTERCONNECT curr_state_reg_2_/QN U11/A2 (0.014:0.017:0.017) (0.014:0.017:0.017))
+    (INTERCONNECT U24/Y U11/A3 (0.011:0.015:0.015))
+    (INTERCONNECT U12/Y U11/A4 (0.010:0.014:0.014) (0.011:0.014:0.014))
+    (INTERCONNECT reset U3/A (0.013:0.017:0.017))
+    (INTERCONNECT U11/Y curr_state_reg_2_/D (0.011:0.013:0.013))
+    (INTERCONNECT clk curr_state_reg_2_/CLK (0.017:0.021:0.021))
+    (INTERCONNECT U3/Y curr_state_reg_2_/RSTB (0.024:0.024:0.024) (0.025:0.028:0.028))
+    (INTERCONNECT U15/Y curr_state_reg_1_/D (0.011:0.013:0.013))
+    (INTERCONNECT clk curr_state_reg_1_/CLK (0.017:0.021:0.021))
+    (INTERCONNECT U3/Y curr_state_reg_1_/RSTB (0.024:0.024:0.024) (0.025:0.028:0.028))
+    (INTERCONNECT curr_state_reg_0_/QN curr_state_reg_0_/D (0.013:0.015:0.015))
+    (INTERCONNECT clk curr_state_reg_0_/CLK (0.017:0.021:0.021))
+    (INTERCONNECT U3/Y curr_state_reg_0_/RSTB (0.024:0.024:0.024) (0.025:0.028:0.028))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2X1_RVT")
+  (INSTANCE U25)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 Y (0.029:0.031:0.031) (0.032:0.034:0.034))
+    (IOPATH A2 Y (0.031:0.032:0.032) (0.035:0.037:0.037))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "NAND2X0_RVT")
+  (INSTANCE U24)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 Y (0.027:0.031:0.031) (0.021:0.024:0.024))
+    (IOPATH A2 Y (0.015:0.017:0.017) (0.017:0.019:0.019))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND3X1_RVT")
+  (INSTANCE U23)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 Y (0.033:0.034:0.034) (0.031:0.034:0.034))
+    (IOPATH A2 Y (0.037:0.039:0.039) (0.034:0.037:0.037))
+    (IOPATH A3 Y (0.039:0.040:0.040) (0.044:0.046:0.046))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DFFX1_RVT")
+  (INSTANCE signal_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.076:0.076:0.076) (0.080:0.080:0.080))
+    (IOPATH (posedge CLK) QN (0.063:0.063:0.063) (0.053:0.053:0.053))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.043:0.043:0.043))
+    (WIDTH (negedge CLK) (0.038:0.038:0.038))
+    (SETUP (posedge D) (posedge CLK) (0.031:0.031:0.031))
+    (SETUP (negedge D) (posedge CLK) (0.022:0.024:0.024))
+    (HOLD (posedge D) (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD (negedge D) (posedge CLK) (-0.007:-0.009:-0.009))
+  )
+)
+(CELL
+  (CELLTYPE "OR2X1_RVT")
+  (INSTANCE U20)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 Y (0.026:0.028:0.028) (0.024:0.025:0.025))
+    (IOPATH A2 Y (0.031:0.033:0.033) (0.029:0.031:0.031))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AO22X1_RVT")
+  (INSTANCE U19)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 Y (0.044:0.046:0.046) (0.038:0.039:0.039))
+    (IOPATH A2 Y (0.042:0.043:0.043) (0.031:0.032:0.032))
+    (IOPATH A3 Y (0.030:0.031:0.031) (0.022:0.023:0.023))
+    (IOPATH A4 Y (0.039:0.040:0.040) (0.034:0.036:0.036))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AO22X1_RVT")
+  (INSTANCE U15)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 Y (0.047:0.048:0.048) (0.042:0.043:0.043))
+    (IOPATH A2 Y (0.048:0.050:0.050) (0.044:0.046:0.046))
+    (IOPATH A3 Y (0.036:0.037:0.037) (0.030:0.031:0.031))
+    (IOPATH A4 Y (0.039:0.040:0.040) (0.034:0.036:0.036))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "NAND2X0_RVT")
+  (INSTANCE U12)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 Y (0.026:0.029:0.029) (0.020:0.023:0.023))
+    (IOPATH A2 Y (0.028:0.031:0.031) (0.022:0.024:0.024))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OAI22X1_RVT")
+  (INSTANCE U11)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 Y (0.051:0.052:0.052) (0.049:0.050:0.050))
+    (IOPATH A2 Y (0.052:0.053:0.053) (0.049:0.050:0.050))
+    (IOPATH A3 Y (0.046:0.052:0.052) (0.045:0.048:0.048))
+    (IOPATH A4 Y (0.043:0.046:0.046) (0.042:0.044:0.044))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1_RVT")
+  (INSTANCE U3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.016:0.016:0.016) (0.019:0.020:0.020))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1_RVT")
+  (INSTANCE curr_state_reg_2_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.093:0.094:0.094) (0.091:0.092:0.092))
+    (IOPATH (negedge RSTB) Q () (0.028:0.030:0.030))
+    (IOPATH (posedge CLK) QN (0.075:0.078:0.078) (0.067:0.070:0.070))
+    (IOPATH (negedge RSTB) QN (0.102:0.105:0.105) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.045:0.045:0.045))
+    (WIDTH (negedge CLK) (0.038:0.038:0.038))
+    (SETUP (posedge D) (posedge CLK) (0.024:0.025:0.025))
+    (SETUP (negedge D) (posedge CLK) (0.026:0.026:0.026))
+    (HOLD (posedge D) (posedge CLK) (-0.010:-0.011:-0.011))
+    (HOLD (negedge D) (posedge CLK) (-0.006:-0.006:-0.006))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.060:-0.060:-0.060))
+    (HOLD (posedge RSTB) (posedge CLK) (0.068:0.068:0.068))
+    (WIDTH (negedge RSTB) (0.055:0.055:0.055))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1_RVT")
+  (INSTANCE curr_state_reg_1_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.102:0.105:0.105) (0.100:0.103:0.103))
+    (IOPATH (negedge RSTB) Q () (0.036:0.040:0.040))
+    (IOPATH (posedge CLK) QN (0.067:0.068:0.068) (0.058:0.059:0.059))
+    (IOPATH (negedge RSTB) QN (0.094:0.096:0.096) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.045:0.045:0.045))
+    (WIDTH (negedge CLK) (0.038:0.038:0.038))
+    (SETUP (posedge D) (posedge CLK) (0.028:0.030:0.030))
+    (SETUP (negedge D) (posedge CLK) (0.026:0.026:0.026))
+    (HOLD (posedge D) (posedge CLK) (-0.012:-0.012:-0.012))
+    (HOLD (negedge D) (posedge CLK) (-0.007:-0.008:-0.008))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.060:-0.060:-0.060))
+    (HOLD (posedge RSTB) (posedge CLK) (0.068:0.068:0.068))
+    (WIDTH (negedge RSTB) (0.055:0.055:0.055))
+  )
+)
+(CELL
+  (CELLTYPE "DFFARX1_RVT")
+  (INSTANCE curr_state_reg_0_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CLK) Q (0.103:0.106:0.106) (0.101:0.104:0.104))
+    (IOPATH (negedge RSTB) Q () (0.037:0.041:0.041))
+    (IOPATH (posedge CLK) QN (0.071:0.073:0.073) (0.063:0.064:0.064))
+    (IOPATH (negedge RSTB) QN (0.098:0.100:0.100) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.045:0.045:0.045))
+    (WIDTH (negedge CLK) (0.038:0.038:0.038))
+    (SETUP (posedge D) (posedge CLK) (0.035:0.036:0.036))
+    (SETUP (negedge D) (posedge CLK) (0.029:0.029:0.029))
+    (HOLD (posedge D) (posedge CLK) (-0.014:-0.014:-0.014))
+    (HOLD (negedge D) (posedge CLK) (-0.012:-0.013:-0.013))
+    (RECOVERY (posedge RSTB) (posedge CLK) (-0.060:-0.060:-0.060))
+    (HOLD (posedge RSTB) (posedge CLK) (0.068:0.068:0.068))
+    (WIDTH (negedge RSTB) (0.055:0.055:0.055))
+  )
+)
+)

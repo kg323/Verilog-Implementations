@@ -1,0 +1,11 @@
+set link_library  { * lsi_10k.db }
+
+set search_path [list . ${synopsys_root}/libraries/syn ${synopsys_root}/minpower/syn ${synopsys_root}/dw/syn_ver ${synopsys_root}/dw/sim_ver]
+set target_library  lsi_10k.db
+set synthetic_library  ""
+set command_log_file  "./command.log"
+set designer  "Kenneth Galindo"
+set company  "CSUN"
+set find_converts_name_lists  "false"
+
+set symbol_library  lsi_10k.sdb 
