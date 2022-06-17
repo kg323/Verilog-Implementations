@@ -2,7 +2,7 @@
 
 COLLEGE OF ENGINEERING AND COMPUTER SCIENCE
 
-# **ECE 527 Lab #10 Report**
+# ECE 527 Lab #3 Report
 
 Author: Kenneth Galindo
 
@@ -13,318 +13,240 @@ Spring 2022
 ![image](https://user-images.githubusercontent.com/98668234/174352608-28c0adcf-a6dc-42e8-b1ac-e4b4233af9ce.png)
 
 
+
 # Table of Contents
 
-[**10.1** 3](#_Toc103715456)
+[**5.1:** 2](#_Toc100072038)
 
-[**10.2** 6](#_Toc103715457)
+[**5.2:** 4](#_Toc100072039)
 
-[**10.3** 8](#_Toc103715458)
+[**5.3:** 5](#_Toc100072040)
 
-[**10.4** 19](#_Toc103715459)
+[**5.4** 8](#_Toc100072041)
 
-[**10.5** 21](#_Toc103715460)
+[**5.5:** 17](#_Toc100072042)
 
-[**Conclusion** 30](#_Toc103715461)
-
-
-# **10.1**
-
-Write the Verilog code for a module which includes:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A write pointer 0 – 1023
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A read pointer 0- 1023
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A RAM 1024 X 8
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Use the RAM library module, in guidance)  
-  
-
-The circuit will:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Allows sequential writes to the RAM and set a pulsed flag &quot;FULL&quot; when it is full
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Allow sequential reads from the RAM and set a pulsed flag &quot;EMPTY&quot; when it is empty
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  The data written should be a repeated decrementing count 255-0  
-  
+[**Conclusion:** 24](#_Toc100072043)
 
 <br>
 
-Inputs are:
+## **5.1:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  8-bit data in
+Write the code for a signal generator. using a state machine
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clock (clk)
-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Write/Read enable
+The signal generator works as follows
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Reset (rst\_n)  
-  
-<br>
+The signal output is a single output, which serially outputs a string of 0s and 1s,
 
-Outputs are:
+This changes on every leading edge of the clock
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  8-bit data out
+The following signal outputs are listed with time going from left to right
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Full flag
+| Button | signal -\&gt; |
+| --- | --- |
+| No buttons pressed |
+0000 0000 0000 etc.
+ |
+| B1 | 0001 0001 0001 etc.
+ |
+| B3 and B1 | 0011 0011 0011 etc.
+ |
+| B2 | 0000 0001 0000 0001 etc.
+ |
+| B3 and B2 | 0000 0011 0000 0011 etc.
+ |
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Empty Flag  
+(The gaps are just for readability, they are not in the output
 
-<br>
+There is a 10 MHz clock and a reset input
 
+See waveform graphic below for how the signal output is supposed to look
 
-I/O cells
+Submit code
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add input and output pad cells, as shown in guidance  
-  
+![image](https://user-images.githubusercontent.com/98668234/174393801-f27031f9-f993-4192-a20a-90d03f9682ec.png)
 
-<br>
-
-Misc
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add a &#39;timescale   1ns / 1ps  
-
-
-![image](https://user-images.githubusercontent.com/98668234/174353022-0f85d2d1-6294-433c-9839-5c5774a88c08.png)
-
-_Figure 10.1: Counter module to read through the 1024 values that are needed for looping through RAM._
-
+_Figure 5.1: Verilog code snippet of fsm. Included are parameters for states, sequential logic, output logic, and state logic._
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174353071-337b0682-efdf-42e8-94a1-3f1937941431.png)
+## **5.2:**
 
-_Figure 10.2: RAM systemverilog file, to create RAM. Contains input and output pads for data, and other needed pads. Also instantiate counter references in order to loop through the address_
+Write a test bench to test this signal generator
 
+It should test all conditions
 
+Output all top-level signals plus the state
 
-<br>
+Submit test bench code
 
-![image](https://user-images.githubusercontent.com/98668234/174353145-eb59eb59-9dbd-4ede-aa9f-79565a7fd03c.png)
+![image](https://user-images.githubusercontent.com/98668234/174393867-df7c3783-375d-4165-a7d0-2824f8b128e3.png)
 
-_Figure 10.3: RAM module continued. Demonstrating when the address is being assigned a value, as well the flags being set (empty and full). We also have the 124x8 RAM instantiated and given ports._
-
-
-<br>
-
-# **10.2**
-
-Write a test bench to test this:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Write 1024 words to the RAM
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Read 1024 words from the RAM
-  
-
+_Figure 5.2: Verilog code of the test bench. Here we are including each case (b1 on, b1&amp;b3 on, b2 no, and b2&amp;b3 on) as well as reset on and off._
 
 <br>
 
-Display:
+## **5.3:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Full and Empty flags
+Simulate this using VCS
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Write/read enable
+Fix any errors
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Data in and data out
-  
+Record outputs
 
-<br>
+Submit transcript and output file
 
-Timing:
+Run the GUI and get waveforms of all top-level signals
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Read and write cycles take just 1 clock
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Generate a 10Mhz clock
+![image](https://user-images.githubusercontent.com/98668234/174393926-dc6fbb8a-f7b6-4152-a585-05eb7663dd7e.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add a &#39;timescale 1ns / 1ps
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Add directive to include SDF timing
-  
+_Figure 5.3: Here we are compiling the 2 files in vcs (vcs -debug -full64 fsm.v fsm\_tb.v)_
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174353207-5b00a663-94dd-46da-8cea-4436a39b5f04.png)
+![image](https://user-images.githubusercontent.com/98668234/174393966-5aa9c29b-7e5c-4631-ac90-6a348a4e7cfd.png)
 
-_Figure 10.4: Testbench for RAM module. Here we are testing all necessary inputs and outputs, as well as setting the flag conditions by given the appropriate clock and values._
-
-
-<br>
-
-# **10.3**
-
-Simulate using VCS
-
-Use/modify the script provided in guidance
-
-Fix all errors and warnings (except `define warnings from the RAM library)
-
-![image](https://user-images.githubusercontent.com/98668234/174353245-b66f4db4-f8e9-4de5-95bd-d225b825d5cc.png)
-
-_Figure 10.5: Forcefile called RAM.f, which will be used for compiling the n necessary files using vcs command._
+_Figure 5.4: This demonstrates the simulation (using simv command) and its respective results._
 
 <br>
 
+![image](https://user-images.githubusercontent.com/98668234/174394008-878b794a-1e52-45ab-838f-8027e33712cb.png)
 
-![image](https://user-images.githubusercontent.com/98668234/174353290-3f28d292-7c42-4ef3-80fa-8fa34fe1d980.png)
-
-_Figure 10.6: Compiling RAM module and testbench using RAM.f force file with the following command: &quot; __**vcs -full64  -v2005  -f RAM.f -v /opt/ECE\_Lib/SAED32\_EDK/lib/stdcell\_rvt/verilog/saed32nm.v -v /opt/ECE\_Lib/SAED32\_EDK/lib/sram/verilog/saed32sram.v  -v iolib.v -debug\_pp**__&quot; _
-
-<br>
-
-![image](https://user-images.githubusercontent.com/98668234/174353328-be2e1bb7-b6a2-4ae4-a780-89e5b4594aa9.png)
-
-_Figure 10.7: Results from compilation; warnings but no errors are given. This is due to some instance port connections from the RAM library._
-
-
-
-![image](https://user-images.githubusercontent.com/98668234/174353429-42cfb1a4-ecbf-4586-8729-a3be8f383c03.png)
-
-_Figure 10.8: Simulation results for the Ram.v and its tesetbench after compiling. Simulation results acquired by running the command &quot; __**simv**__&quot;. This screenshot demonstrates that no flags set in this simulation snippet. Condition for setting empty flag is re\_wr = 0 and read\_address is 1023._
+_Figure 5.5: Log file output of the simulation. Depicts the different cases needed to demonstrate proper implementation._
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174353462-6de43062-d62c-4c64-9312-1a55ecb5cc92.png)
+## **5.4**
 
-_Figure 10.9: Empty flag set, due to meeting conditions of re\_wr == 0 and read\_address is set to 1023._
+Run the GUI and get waveforms of all top-level signals
 
-<br>
+Submit waveform
 
-![image](https://user-images.githubusercontent.com/98668234/174353503-7781e285-6744-47a3-aac0-8fe7b064d560.png)
+![image](https://user-images.githubusercontent.com/98668234/174394058-414e6660-ff07-438f-8e69-983e02dad451.png)
 
-_Figure 10.10: Full flag set due to meeting conditions of re\_wr == 1 and write\_address is == 1023._
-
-<br>
-
-![image](https://user-images.githubusercontent.com/98668234/174353534-80c2cae6-43d0-4378-ac06-b5d8d1d51a7b.png)
-
-_Figure 10.11: Saving output using &quot;simv -l lab10.log&quot; command, in order to store the simulation results_
+_Figure 5.6: Using the command dve -full 64, in order to start up the waveform GUI and show the waveforms_
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174353567-b540e3a9-852f-4b13-b793-51a9cd12a48e.png)
+![image](https://user-images.githubusercontent.com/98668234/174394085-017a72a9-6080-4bb3-b9c2-4549d70a92ce.png)
 
-_Figure 10.12: In this screenshot, we can see the waveforms for the RAM module. This is displaying that all flags are not set, due to the conditions not being met as we expected them to be._
-
-
-
-![image](https://user-images.githubusercontent.com/98668234/174353609-c1089623-a2bb-4829-b2e3-7a0ebb80e97b.png)
-
-_Figure 10.13: This screenshot shows that the waveforms are displaying that after there is a data\_out of 0 and re\_wr is not enabled, the empty flag is being set._
+_Figure 5.7: Time 0s which shows no buttons pressed and reset is off_
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174353656-969193c9-7f80-43e0-9de4-e9e7f63ac6f2.png)
+![image](https://user-images.githubusercontent.com/98668234/174394121-da15ab24-71ea-4e5c-8e7b-27fb0306fc1a.png)
 
-_Figure 10.14: This screenshot demonstrates when the full flag is being set, which is when the re\_wr bit is enabled and the data\_out value is 255._
-
-
-<br>
-
-![image](https://user-images.githubusercontent.com/98668234/174353696-a04e6ea1-b14b-4dac-aabd-8c4ca602f5c6.png)
-
-_Figure 10.15: End of RAM simulation, which demonstrates flags are set but never reset. This was never part of the intended results but may be constructed at a later stage._
+_Figure 5.8: Time 200s which shows b1 on, and the signal goes high soon after it is clocked_
 
 <br>
 
-# **10.4**
+![image](https://user-images.githubusercontent.com/98668234/174394149-4d912893-5a90-4a67-a8ff-2a8bc77210dd.png)
 
-Compile using DC
-
-Use/modify the TCL
-
-Fix any warnings and errors
-
-(Except &#39;define warning from the RAM library)
-
-![image](https://user-images.githubusercontent.com/98668234/174353741-ac39b8c3-72a4-452c-8bc3-ee14cb2fb1bc.png)
-
-_Figure 10.16: RAM.scr file used to read all necessary files to produce netlist file as well as the SDF file._
+_Figure 5.9: Time 350s where b1 and b3 are on, which is then clocked soon after and gives a bigger pulse to signal since both buttons are pressed._
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174353807-fec9be76-f086-4c1a-b964-5eba4eeb7c32.png)
+![image](https://user-images.githubusercontent.com/98668234/174394175-03208257-05a2-4053-b945-fe2917cbb3c5.png)
 
-![image](https://user-images.githubusercontent.com/98668234/174353836-11341e08-668a-449a-b949-d93fadaabb10.png)
-
-_Figure 10.17: Both screenshots demonstrate the results of the RAM.scr compilation using &quot;__ **dc\_shell and the command source RAM.scr&quot;** _
+_Figure 5.10: Time 500s, in which b1 and b3 are off, then only b2 is on and is clocked later since b1 and b3 are clocked at a falling edge but interferes with the time in which b2 is active._
 
 <br>
 
-# **10.5**
+![image](https://user-images.githubusercontent.com/98668234/174394235-42271b08-20ad-4bcf-8059-1d6cbf61a08c.png)
 
-Re-simulate using VCS
-
-Use the netlist file
-
-Use the SDF file
-
-The VCS command line should include 2 libraries (see guidance)
-
-The results should be the same as
-
-![image](https://user-images.githubusercontent.com/98668234/174353885-9513f841-cb8b-41dd-b69e-9402e5bad2b6.png)
-
-_Figure 10.18: RAM netlist file. This is created after running the script command_
+_Figure 5.11: After clocking b2 at time 500s, we then have b3 on along with b2 and is then clocked soon after in the output signal._
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174353941-669cde3f-a6a8-4d49-9e27-20a0c2bce4fe.png)
+![image](https://user-images.githubusercontent.com/98668234/174394276-dc543a4b-0b33-4892-b282-626656e590a5.png)
 
-_Figure 10.19: Continuation of the RAM netlist file_
-
-<br>
-
-![image](https://user-images.githubusercontent.com/98668234/174353982-eb5ec9be-d16e-4204-806b-63809741fe8a.png)
-
-_Figure 10.20: RAM netlist testbench, This is the same as the RAM.v testbench in order to observe that they create the same simulation results_
-<br>
-
-
-![image](https://user-images.githubusercontent.com/98668234/174354027-9b56bd8b-5d7a-4a6f-9c7c-894a02b0939c.png)
-
-_Figure 10.21: Netlist.f (force file), use to call all needed files in order to run the vcs compile command_
-
+_Figure 5.12: Here are time 750s, we set reset to active meanwhile b2 and b3 are still on which then causes no output for the signal. This demonstrates that reset is working as intended._
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174354088-30c68a55-43fd-4f61-ab69-ef55c92795d0.png)
+![image](https://user-images.githubusercontent.com/98668234/174394328-a64e3b1e-9b95-40d4-9615-bb82f72b5a86.png)
 
-_Figure 10.22: Compiling RAM module and testbench using RAM.f force file with the following command: &quot; __**vcs -full64  -v2005  -f netlist.f -v /opt/ECE\_Lib/SAED32\_EDK/lib/stdcell\_rvt/verilog/saed32nm.v -v /opt/ECE\_Lib/SAED32\_EDK/lib/sram/verilog/saed32sram.v  -v iolib.v -debug\_pp**__&quot; _
-
-<br>
-
-![image](https://user-images.githubusercontent.com/98668234/174354118-003de2db-5849-4ce5-bb78-b7fbe5b5272e.png)
-
-_Figure 10.23: Results from netlist after running the vcs command. These results are accomplished from the netlist file and its testbench, by calling the &quot; __**simv**__&quot; command._
+_Figure 5.13: Here at time 800s, we turn off reset and still have b2 and b3 which is clocked later and shown in e output signal._
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174354149-ef9d3a43-687e-476d-a76b-0e23cd8b0f6c.png)
+![image](https://user-images.githubusercontent.com/98668234/174394367-e552b947-de92-498f-a100-90dd3f57714c.png)
 
-_Figure 10.24: Waveforms for the netlist simulation, demonstrating that all flags are empty (no conditions met in order to have flags set)._
-
-<br>
-
-![image](https://user-images.githubusercontent.com/98668234/174354190-08becbf6-8632-4a97-88f1-9c06fbfc9812.png)
-
-_Figure 10.25: Waveforms for the netlist simulation, demonstrating that the empty flag is being set (wr\_en == 0 and rd\_address == 1023)_
+_Figure 5.14: Time 865 demonstrates that after turning off reset and having b2 and b3 active, we get a double width for the output signal since both button are on._
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174354213-6b14abfb-f188-4950-9794-d67155d3dd32.png)
+## **5.5:**
 
-_Figure 10.26: Waveforms for the netlist simulation, demonstrating that the full flag is being set (wr\_en == 1 and wr\_address == 1023)_
+Write a TCL script for Design Compiler
+
+Synthesize with Design compiler.
+
+Use worse case
+
+Use 10Mhz clock
+
+Use uncertainty of 1ns
+
+Fix any errors or warnings,
+
+Write out area and timing reports, and netlist
+
+Submit TCL script, area and timing reports and netlist
+
+![image](https://user-images.githubusercontent.com/98668234/174394406-c452d6c4-bb99-4b3e-892d-a241b8988669.png)
+
+_Figure 5.15: scr file that has all script commands to read files, compile, etc. in order to run the synthesis._
 
 <br>
 
-![image](https://user-images.githubusercontent.com/98668234/174354246-ed871a68-fc59-402b-8004-7d20d43a6156.png)
+![image](https://user-images.githubusercontent.com/98668234/174394447-a4918c05-3f83-4b6a-b022-716923efafd7.png)
 
-_Figure 10.27: End of simulation and demonstrating proper working code_
+_Figure 5.16: This shows the dc\_shell window in which after running the scr file with the **source fsm.scr command** , we see that the Verilog files throw 3 warnings which are then fixed._
 
 <br>
 
-# **Conclusion**
+![image](https://user-images.githubusercontent.com/98668234/174394479-0301f076-69ac-420b-8e4f-fe26cf887013.png)
 
-We can see that based on our results from the simulated outputs, and the waveforms, that the codes are indeed working as expected and meet expectations for the lab. The only noticeable issue stems from the flags, in which they stay on after being set upon meeting the conditions. This may be remedied by simply having them reset after meeting the needed conditions. Aside from this, no further issues can be noted, seeing as how the lab was performed in accordance to what was needed
+_Figure 5.17: Demonstrating the dc\_shell window once more after running the scr file. This time warnings are fixed and gone._
+
+<br>
+
+![image](https://user-images.githubusercontent.com/98668234/174394507-a62b4327-7ea4-40b0-b829-86a780748cb7.png)
+
+_Figure 5.18: Window demonstrating the output file for the compile command. This shows the delays for the build, as well as slack, setup cost, etc._
+
+<br>
+
+![image](https://user-images.githubusercontent.com/98668234/174394556-fec88087-f9d6-4c08-ae16-9061ee86f11d.png)
+
+_Figure 5.19: Output file for the area report of the build. We see that the total cell area is 52.00 with 6 ports and 23 nets._
+
+<br>
+
+![image](https://user-images.githubusercontent.com/98668234/174394600-460ede9f-f2c4-4ba5-8c84-de0c786a82af.png)
+
+_Figure 5.20: Window displaying the timing report of the build, which shows a slack of 4.14. **This was acquired using 10MHz clock, uncertainty of 1ns and worse case.** _
+
+<br>
+
+![image](https://user-images.githubusercontent.com/98668234/174394647-14419762-fc1b-477b-9b50-adbf94df1d25.png)
+
+_Figure 5.21: Output Verilog file for the netlist of the fsm._
+
+<br>
+
+![image](https://user-images.githubusercontent.com/98668234/174394680-0c8eefb3-9c64-48a3-ac7a-3155040fca54.png)
+
+_Figure 5.22:Outpit file of the command **report\_net** which shows port fanouts/fanins and such details of the design_
+
+<br>
+
+## **Conclusion:**
+
+Based on the results and waveform outputs, we can determine that the lab was performed successfully and is running according to specifications. Since our resulting waveforms are in accordance to the provided results, we can safely confirm that the output is as expected. Regarding synthesis, some warnings were simply ignored due to being ignored in synthesis since these warnings were regarding delay controls and initial blocks which are not synthesizable. Though there may have been workarounds for the code, these were simply ignored since the code was a simple fsm which when run through the **check\_design** command returned a simple 1, demonstrating that everything was fine with no errors present. In the event that the code could be updated rather than having warnings ignored within the .scr file, then the design would vary but still have the same functionality but .scr would probably have changes within the reports when synthesis is run.
+
+![image](https://user-images.githubusercontent.com/98668234/174394714-6e1493f3-8a1f-47c0-a656-0c1cf951bd3c.png)
+
+_Figure 5.23: Lab 5 supplied output waveform for comparison to our own results_
