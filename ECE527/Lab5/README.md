@@ -32,13 +32,13 @@ Spring 2022
 
 Write the Verilog code for a module which includes:
 
-  A write pointer 0 – 1023
+&nbsp;&nbsp;&nbsp;  A write pointer 0 – 1023
 
-  A read pointer 0- 1023
+&nbsp;&nbsp;&nbsp;  A read pointer 0- 1023
 
-  A RAM 1024 X 8
+&nbsp;&nbsp;&nbsp; A RAM 1024 X 8
 
-  (Use the RAM library module, in guidance)
+&nbsp;&nbsp;&nbsp;  (Use the RAM library module, in guidance)
   
 
 The circuit will:
