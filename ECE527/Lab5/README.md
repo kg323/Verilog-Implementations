@@ -52,37 +52,41 @@ The circuit will:
 
 Inputs are:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  8-bit data in
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  8-bit data in
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Clock (clk)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clock (clk)
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Write/Read enable
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Write/Read enable
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Reset (rst\_n)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Reset (rst\_n)
   
 
 Outputs are:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  8-bit data out
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  8-bit data out
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Full flag
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Full flag
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Empty Flag
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Empty Flag
   
+\
+\
 
 I/O cells
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Add input and output pad cells, as shown in guidance
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add input and output pad cells, as shown in guidance
   
 
 Misc
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Add a &#39;timescale   1ns / 1ps
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add a &#39;timescale   1ns / 1ps
 
 ![image](https://user-images.githubusercontent.com/98668234/174353022-0f85d2d1-6294-433c-9839-5c5774a88c08.png)
 
 _Figure 10.1: Counter module to read through the 1024 values that are needed for looping through RAM._
 
+\
+\
 
 ![image](https://user-images.githubusercontent.com/98668234/174353071-337b0682-efdf-42e8-94a1-3f1937941431.png)
 
