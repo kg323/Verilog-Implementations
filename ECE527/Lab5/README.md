@@ -42,19 +42,13 @@ This changes on every leading edge of the clock
 
 The following signal outputs are listed with time going from left to right
 
-| Button | signal -\&gt; |
-| --- | --- |
-| No buttons pressed |
-0000 0000 0000 etc.
- |
-| B1 | 0001 0001 0001 etc.
- |
-| B3 and B1 | 0011 0011 0011 etc.
- |
-| B2 | 0000 0001 0000 0001 etc.
- |
-| B3 and B2 | 0000 0011 0000 0011 etc.
- |
+| Button             | signal &rarr; |
+| ------------------ | --------------|
+| No buttons pressed |0000 0000 0000 etc.|
+| B1                 | 0001 0001 0001 etc.|
+| B3 and B1          | 0011 0011 0011 etc.|
+| B2                 | 0000 0001 0000 0001 etc.|
+| B3 and B2          | 0000 0011 0000 0011 etc.|
 
 (The gaps are just for readability, they are not in the output
 
