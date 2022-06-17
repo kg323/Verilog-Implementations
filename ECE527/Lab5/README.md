@@ -32,52 +32,52 @@ Spring 2022
 
 Write the Verilog code for a module which includes:
 
-&nbsp;&nbsp;&nbsp;  A write pointer 0 – 1023
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp A write pointer 0 – 1023
 
-&nbsp;&nbsp;&nbsp;  A read pointer 0- 1023
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp A read pointer 0- 1023
 
-&nbsp;&nbsp;&nbsp; A RAM 1024 X 8
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp A RAM 1024 X 8
 
-&nbsp;&nbsp;&nbsp;  (Use the RAM library module, in guidance)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp (Use the RAM library module, in guidance)
   
 
 The circuit will:
 
-  Allows sequential writes to the RAM and set a pulsed flag &quot;FULL&quot; when it is full
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Allows sequential writes to the RAM and set a pulsed flag &quot;FULL&quot; when it is full
 
-  Allow sequential reads from the RAM and set a pulsed flag &quot;EMPTY&quot; when it is empty
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Allow sequential reads from the RAM and set a pulsed flag &quot;EMPTY&quot; when it is empty
 
-  The data written should be a repeated decrementing count 255-0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  The data written should be a repeated decrementing count 255-0
   
 
 Inputs are:
 
-  8-bit data in
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  8-bit data in
 
-  Clock (clk)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Clock (clk)
   
-  Write/Read enable
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Write/Read enable
 
-  Reset (rst\_n)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Reset (rst\_n)
   
 
 Outputs are:
 
-  8-bit data out
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  8-bit data out
 
-  Full flag
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Full flag
 
-  Empty Flag
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Empty Flag
   
 
 I/O cells
 
-  Add input and output pad cells, as shown in guidance
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Add input and output pad cells, as shown in guidance
   
 
 Misc
 
-  Add a &#39;timescale   1ns / 1ps
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Add a &#39;timescale   1ns / 1ps
 
 ![image](https://user-images.githubusercontent.com/98668234/174353022-0f85d2d1-6294-433c-9839-5c5774a88c08.png)
 
