@@ -43,12 +43,13 @@ Write the Verilog code for a module which includes:
 
 The circuit will:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Allows sequential writes to the RAM and set a pulsed flag &quot;FULL&quot; when it is full
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Allows sequential writes to the RAM and set a pulsed flag &quot;FULL&quot; when it is full
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Allow sequential reads from the RAM and set a pulsed flag &quot;EMPTY&quot; when it is empty
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Allow sequential reads from the RAM and set a pulsed flag &quot;EMPTY&quot; when it is empty
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  The data written should be a repeated decrementing count 255-0  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  The data written should be a repeated decrementing count 255-0  
   
+
 
 
 Inputs are:
@@ -61,6 +62,7 @@ Inputs are:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Reset (rst\_n)  
   
+
 
 
 Outputs are:
@@ -80,6 +82,7 @@ I/O cells
   
 
 
+
 Misc
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add a &#39;timescale   1ns / 1ps  
@@ -92,9 +95,11 @@ _Figure 10.1: Counter module to read through the 1024 values that are needed for
 
 
 
+
 ![image](https://user-images.githubusercontent.com/98668234/174353071-337b0682-efdf-42e8-94a1-3f1937941431.png)
 
 _Figure 10.2: RAM systemverilog file, to create RAM. Contains input and output pads for data, and other needed pads. Also instantiate counter references in order to loop through the address_
+
 
 
 
@@ -112,7 +117,9 @@ Write a test bench to test this:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Read 1024 words from the RAM
   
-\
+
+
+
 
 Display:
 
