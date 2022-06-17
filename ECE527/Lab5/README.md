@@ -50,7 +50,7 @@ The following signal outputs are listed with time going from left to right
 | B2                 | 0000 0001 0000 0001 etc.|
 | B3 and B2          | 0000 0011 0000 0011 etc.|
 
-(The gaps are just for readability, they are not in the output
+(The gaps are just for readability, they are not in the output)
 
 There is a 10 MHz clock and a reset input
 
