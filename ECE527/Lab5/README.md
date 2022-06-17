@@ -2,7 +2,7 @@
 
 COLLEGE OF ENGINEERING AND COMPUTER SCIENCE
 
-# ECE 527 Lab #3 Report
+# ECE 527 Lab #5 Report
 
 Author: Kenneth Galindo
 
