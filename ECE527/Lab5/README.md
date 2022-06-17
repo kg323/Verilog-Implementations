@@ -38,7 +38,7 @@ Write the Verilog code for a module which includes:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A RAM 1024 X 8
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Use the RAM library module, in guidance)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Use the RAM library module, in guidance)  
   
 
 The circuit will:
@@ -47,7 +47,7 @@ The circuit will:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  Allow sequential reads from the RAM and set a pulsed flag &quot;EMPTY&quot; when it is empty
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  The data written should be a repeated decrementing count 255-0\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  The data written should be a repeated decrementing count 255-0  
   
 
 
@@ -59,7 +59,7 @@ Inputs are:
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Write/Read enable
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Reset (rst\_n)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Reset (rst\_n)  
   
 
 
@@ -69,20 +69,20 @@ Outputs are:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Full flag
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Empty Flag\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Empty Flag  
   
 
 
 
 I/O cells
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add input and output pad cells, as shown in guidance\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add input and output pad cells, as shown in guidance  
   
 
 
 Misc
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add a &#39;timescale   1ns / 1ps\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add a &#39;timescale   1ns / 1ps  
 
 
 ![image](https://user-images.githubusercontent.com/98668234/174353022-0f85d2d1-6294-433c-9839-5c5774a88c08.png)
