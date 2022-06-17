@@ -50,7 +50,7 @@ The circuit will:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  The data written should be a repeated decrementing count 255-0  
   
 
-
+<br>
 
 Inputs are:
 
