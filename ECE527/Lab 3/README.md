@@ -1,8 +1,8 @@
-# Verilog-Implementations
+# **CALIFORNIA STATE UNIVERSITY, NORTHRIDGE**
 
-Kenneth Galindo, ECE527, Lab 3, Page 7
+COLLEGE OF ENGINEERING AND COMPUTER SCIENCE
 
-# ECE 527 Lab #3 Report
+# **ECE 527 Lab #3 Report**
 
 Author: Kenneth Galindo
 
