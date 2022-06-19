@@ -10,7 +10,7 @@ Instructor: Gary Burke
 
 Spring 2022
 
-![](RackMultipart20220619-1-tlypab_html_f7a4df29ec7f65ac.png)
+![image](https://user-images.githubusercontent.com/98668234/174352608-28c0adcf-a6dc-42e8-b1ac-e4b4233af9ce.png)
 
 <br>
 
