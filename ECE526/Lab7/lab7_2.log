@@ -1,0 +1,107 @@
+Command: /home/users7/kg867678/526LSP21/Lab7/./simv -l lab7_2.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Apr 11 23:10 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+DATA = xx, ADDR = 00
+DATA = xx, ADDR = 01
+DATA = xx, ADDR = 02
+DATA = xx, ADDR = 03
+DATA = 58, ADDR = 04
+DATA = ed, ADDR = 05
+DATA = b7, ADDR = 06
+DATA = 34, ADDR = 07
+DATA = c9, ADDR = 08
+DATA = 8f, ADDR = 09
+DATA = a0, ADDR = 0a
+DATA = 9b, ADDR = 0b
+DATA = 65, ADDR = 0c
+DATA = 11, ADDR = 0d
+DATA = 03, ADDR = 0e
+DATA = 4c, ADDR = 0f
+DATA = da, ADDR = 10
+DATA = 7e, ADDR = 11
+DATA = f2, ADDR = 12
+DATA = 26, ADDR = 13
+DATA = 86, ADDR = 14
+DATA = 95, ADDR = 15
+DATA = fd, ADDR = 16
+DATA = b1, ADDR = 17
+DATA = xx, ADDR = 18
+DATA = xx, ADDR = 19
+DATA = xx, ADDR = 1a
+DATA = xx, ADDR = 1b
+DATA = 12, ADDR = 1c
+DATA = af, ADDR = 1d
+DATA = 33, ADDR = 1e
+DATA = xx, ADDR = 1f
+Original values before scrabmble
+DATA = xx, ADDR = 00
+DATA = xx, ADDR = 01
+DATA = xx, ADDR = 02
+DATA = xx, ADDR = 03
+DATA = 58, ADDR = 04
+DATA = ed, ADDR = 05
+DATA = b7, ADDR = 06
+DATA = 34, ADDR = 07
+DATA = c9, ADDR = 08
+DATA = 8f, ADDR = 09
+DATA = a0, ADDR = 0a
+DATA = 9b, ADDR = 0b
+DATA = 65, ADDR = 0c
+DATA = 11, ADDR = 0d
+DATA = 03, ADDR = 0e
+DATA = 4c, ADDR = 0f
+DATA = da, ADDR = 10
+DATA = 7e, ADDR = 11
+DATA = f2, ADDR = 12
+DATA = 26, ADDR = 13
+DATA = 86, ADDR = 14
+DATA = 95, ADDR = 15
+DATA = fd, ADDR = 16
+DATA = b1, ADDR = 17
+DATA = xx, ADDR = 18
+DATA = xx, ADDR = 19
+DATA = xx, ADDR = 1a
+DATA = xx, ADDR = 1b
+DATA = 12, ADDR = 1c
+DATA = af, ADDR = 1d
+DATA = 33, ADDR = 1e
+DATA = xx, ADDR = 1f
+Scrambled values
+DATA = xx, ADDR = 00
+DATA = xx, ADDR = 01
+DATA = xx, ADDR = 02
+DATA = xx, ADDR = 03
+DATA = 13, ADDR = 04
+DATA = de, ADDR = 05
+DATA = ed, ADDR = 06
+DATA = 0d, ADDR = 07
+DATA = d2, ADDR = 08
+DATA = ea, ADDR = 09
+DATA = 44, ADDR = 0a
+DATA = e3, ADDR = 0b
+DATA = 9c, ADDR = 0c
+DATA = 81, ADDR = 0d
+DATA = a0, ADDR = 0e
+DATA = 1a, ADDR = 0f
+DATA = 73, ADDR = 10
+DATA = 3f, ADDR = 11
+DATA = 75, ADDR = 12
+DATA = 2c, ADDR = 13
+DATA = 68, ADDR = 14
+DATA = c9, ADDR = 15
+DATA = df, ADDR = 16
+DATA = c5, ADDR = 17
+DATA = xx, ADDR = 18
+DATA = xx, ADDR = 19
+DATA = xx, ADDR = 1a
+DATA = xx, ADDR = 1b
+DATA = 21, ADDR = 1c
+DATA = ee, ADDR = 1d
+DATA = a5, ADDR = 1e
+DATA = xx, ADDR = 1f
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1128 ns
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Sun Apr 11 23:10:10 2021

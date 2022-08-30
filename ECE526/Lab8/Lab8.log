@@ -1,0 +1,72 @@
+Command: /home/users7/kg867678/526LSP21/Lab8/./simv -l Lab8.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Apr 21 23:07 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0 CLK = 0, EN = 0, OPCODE = 0000, A = 11111111, B = 11111111, ALU_OUT = xxxxxxxx, CF = x OF = x, SF = x, ZF = x, OE = 1
+                   3 CLK = 0, EN = 1, OPCODE = 0000, A = 11111111, B = 11111111, ALU_OUT = xxxxxxxx, CF = x OF = x, SF = x, ZF = x, OE = 1
+                   5 CLK = 1, EN = 1, OPCODE = 0000, A = 11111111, B = 11111111, ALU_OUT = xxxxxxxx, CF = x OF = x, SF = x, ZF = x, OE = 1
+                  10 CLK = 0, EN = 1, OPCODE = 0000, A = 11111111, B = 11111111, ALU_OUT = xxxxxxxx, CF = x OF = x, SF = x, ZF = x, OE = 1
+                  15 CLK = 1, EN = 1, OPCODE = 0000, A = 11111111, B = 11111111, ALU_OUT = xxxxxxxx, CF = x OF = x, SF = x, ZF = x, OE = 1
+                  18 CLK = 1, EN = 1, OPCODE = 0010, A = 11111111, B = 11111111, ALU_OUT = xxxxxxxx, CF = x OF = x, SF = x, ZF = x, OE = 1
+                  20 CLK = 0, EN = 1, OPCODE = 0010, A = 11111111, B = 11111111, ALU_OUT = xxxxxxxx, CF = x OF = x, SF = x, ZF = x, OE = 1
+                  25 CLK = 1, EN = 1, OPCODE = 0010, A = 11111111, B = 11111111, ALU_OUT = xxxxxxxx, CF = 1 OF = 0, SF = x, ZF = x, OE = 1
+                  28 CLK = 1, EN = 1, OPCODE = 0010, A = 01100111, B = 00011110, ALU_OUT = xxxxxxxx, CF = 1 OF = 0, SF = x, ZF = x, OE = 1
+                  30 CLK = 0, EN = 1, OPCODE = 0010, A = 01100111, B = 00011110, ALU_OUT = xxxxxxxx, CF = 1 OF = 0, SF = x, ZF = x, OE = 1
+                  35 CLK = 1, EN = 1, OPCODE = 0010, A = 01100111, B = 00011110, ALU_OUT = 11111110, CF = 0 OF = 1, SF = 1, ZF = 0, OE = 1
+                  38 CLK = 1, EN = 1, OPCODE = 0110, A = 01100111, B = 00011110, ALU_OUT = 11111110, CF = 0 OF = 1, SF = 1, ZF = 0, OE = 1
+                  40 CLK = 0, EN = 1, OPCODE = 0110, A = 01100111, B = 00011110, ALU_OUT = 11111110, CF = 0 OF = 1, SF = 1, ZF = 0, OE = 1
+                  45 CLK = 1, EN = 1, OPCODE = 0110, A = 01100111, B = 00011110, ALU_OUT = 01111001, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                  48 CLK = 1, EN = 1, OPCODE = 0110, A = 00000000, B = 00000000, ALU_OUT = 01111001, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                  50 CLK = 0, EN = 1, OPCODE = 0110, A = 00000000, B = 00000000, ALU_OUT = 01111001, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                  55 CLK = 1, EN = 1, OPCODE = 0110, A = 00000000, B = 00000000, ALU_OUT = 00000000, CF = 0 OF = 0, SF = 0, ZF = 1, OE = 1
+                  58 CLK = 1, EN = 1, OPCODE = 0010, A = 00000000, B = 00000000, ALU_OUT = 00000000, CF = 0 OF = 0, SF = 0, ZF = 1, OE = 1
+                  60 CLK = 0, EN = 1, OPCODE = 0010, A = 00000000, B = 00000000, ALU_OUT = 00000000, CF = 0 OF = 0, SF = 0, ZF = 1, OE = 1
+                  65 CLK = 1, EN = 1, OPCODE = 0010, A = 00000000, B = 00000000, ALU_OUT = 00000000, CF = 0 OF = 0, SF = 0, ZF = 1, OE = 1
+                  68 CLK = 1, EN = 1, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 00000000, CF = 0 OF = 0, SF = 0, ZF = 1, OE = 1
+                  70 CLK = 0, EN = 1, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 00000000, CF = 0 OF = 0, SF = 0, ZF = 1, OE = 1
+                  75 CLK = 1, EN = 1, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 00000000, CF = 1 OF = 0, SF = 0, ZF = 1, OE = 1
+                  78 CLK = 1, EN = 0, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 00000000, CF = 1 OF = 0, SF = 0, ZF = 1, OE = 1
+                  80 CLK = 0, EN = 0, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 00000000, CF = 1 OF = 0, SF = 0, ZF = 1, OE = 1
+                  85 CLK = 1, EN = 0, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 00000000, CF = 1 OF = 0, SF = 0, ZF = 1, OE = 1
+                  88 CLK = 1, EN = 1, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 00000000, CF = 1 OF = 0, SF = 0, ZF = 1, OE = 1
+                  90 CLK = 0, EN = 1, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 00000000, CF = 1 OF = 0, SF = 0, ZF = 1, OE = 1
+                  95 CLK = 1, EN = 1, OPCODE = 0010, A = 11110101, B = 01011010, ALU_OUT = 01001111, CF = 1 OF = 0, SF = 0, ZF = 0, OE = 1
+                  98 CLK = 1, EN = 1, OPCODE = 0011, A = 11110101, B = 01011010, ALU_OUT = 01001111, CF = 1 OF = 0, SF = 0, ZF = 0, OE = 1
+                 100 CLK = 0, EN = 1, OPCODE = 0011, A = 11110101, B = 01011010, ALU_OUT = 01001111, CF = 1 OF = 0, SF = 0, ZF = 0, OE = 1
+                 105 CLK = 1, EN = 1, OPCODE = 0011, A = 11110101, B = 01011010, ALU_OUT = 10011011, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 108 CLK = 1, EN = 1, OPCODE = 0011, A = 00010110, B = 01011010, ALU_OUT = 10011011, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 110 CLK = 0, EN = 1, OPCODE = 0011, A = 00010110, B = 01011010, ALU_OUT = 10011011, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 115 CLK = 1, EN = 1, OPCODE = 0011, A = 00010110, B = 01011010, ALU_OUT = 10111100, CF = 1 OF = 1, SF = 1, ZF = 0, OE = 1
+                 118 CLK = 1, EN = 1, OPCODE = 0100, A = 00010110, B = 01011010, ALU_OUT = 10111100, CF = 1 OF = 1, SF = 1, ZF = 0, OE = 1
+                 120 CLK = 0, EN = 1, OPCODE = 0100, A = 00010110, B = 01011010, ALU_OUT = 10111100, CF = 1 OF = 1, SF = 1, ZF = 0, OE = 1
+                 125 CLK = 1, EN = 1, OPCODE = 0100, A = 00010110, B = 01011010, ALU_OUT = 00010010, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 128 CLK = 1, EN = 1, OPCODE = 0101, A = 00010110, B = 01011010, ALU_OUT = 00010010, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 130 CLK = 0, EN = 1, OPCODE = 0101, A = 00010110, B = 01011010, ALU_OUT = 00010010, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 135 CLK = 1, EN = 1, OPCODE = 0101, A = 00010110, B = 01011010, ALU_OUT = 01011110, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 138 CLK = 1, EN = 1, OPCODE = 1001, A = 00010110, B = 01011010, ALU_OUT = 01011110, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 140 CLK = 0, EN = 1, OPCODE = 1001, A = 00010110, B = 01011010, ALU_OUT = 01011110, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 145 CLK = 1, EN = 1, OPCODE = 1001, A = 00010110, B = 01011010, ALU_OUT = 01011110, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 148 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 01011110, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 150 CLK = 0, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 01011110, CF = 0 OF = 0, SF = 0, ZF = 0, OE = 1
+                 155 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 158 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 0
+                 160 CLK = 0, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 0
+                 165 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = xxxxxxxx, CF = 0 OF = 0, SF = x, ZF = x, OE = 0
+                 168 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = xxxxxxxx, CF = 0 OF = 0, SF = x, ZF = x, OE = 1
+                 170 CLK = 0, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = xxxxxxxx, CF = 0 OF = 0, SF = x, ZF = x, OE = 1
+                 175 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 180 CLK = 0, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 185 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 190 CLK = 0, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 195 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 200 CLK = 0, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 205 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 210 CLK = 0, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+                 215 CLK = 1, EN = 1, OPCODE = 0111, A = 00010110, B = 01011010, ALU_OUT = 11101001, CF = 0 OF = 0, SF = 1, ZF = 0, OE = 1
+$finish called from file "alu_tb.sv", line 44.
+$finish at simulation time                 2180
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 218000 ps
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Wed Apr 21 23:07:14 2021

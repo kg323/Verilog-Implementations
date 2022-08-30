@@ -1,0 +1,26 @@
+{
+    "dff": [
+        "dff",
+        "IWW0i",
+        "module",
+        1
+    ],
+    "MUX2_1": [
+        "MUX2_1",
+        "Rfak2",
+        "module",
+        3
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        2
+    ],
+    "register_tb": [
+        "register_tb",
+        "qvaeK",
+        "module",
+        4
+    ]
+}

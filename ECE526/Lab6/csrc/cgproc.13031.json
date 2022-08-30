@@ -1,0 +1,112 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.3761451244354248,
+                0.072844999999999993,
+                0.044389999999999999,
+                207360,
+                221420,
+                1616901581.2886901,
+                3466060426846878
+            ],
+            "child_modules": {
+                "mux_tb": 1
+            },
+            "end_perf": [
+                0.40883207321166992,
+                0.075424000000000005,
+                0.049139000000000002,
+                208792,
+                221420,
+                3466060541401300,
+                0,
+                0
+            ],
+            "nMops": 0,
+            "nQuads": 0,
+            "nRouts": 5
+        },
+        "mux_tb": {
+            "start_perf": [
+                0.40906214714050293,
+                0.075555999999999998,
+                0.049224999999999998,
+                208792,
+                221420,
+                1616901581.3216071,
+                3466060542165464
+            ],
+            "child_modules": {},
+            "nMops": 2672,
+            "nQuads": 852,
+            "Compiled": "Yes",
+            "Compiled Times": 10,
+            "end_perf": [
+                0.48907995223999023,
+                0.098377000000000006,
+                0.055044000000000003,
+                215216,
+                221420,
+                3466060822586006,
+                12884901889,
+                0
+            ],
+            "nRouts": 51
+        }
+    },
+    "CompUnits": {
+        "RWaGB_d": {
+            "mod": "mux_tb",
+            "bytes": 24416,
+            "out": "RWaGB_d.o",
+            "archive": "archive.9/_13031_archive_1.a",
+            "text": 9061,
+            "checksum": 0,
+            "mode": 4
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.9/_13031_archive_1.a",
+            "objects": [
+                [
+                    "RWaGB_d.o",
+                    24416
+                ],
+                [
+                    "amcQwB.o",
+                    100088
+                ]
+            ],
+            "size": 124504
+        }
+    ],
+    "stat": {
+        "peak_mem_kb": 221420,
+        "ru_self_end": {
+            "ru_nivcsw": 34,
+            "ru_maxrss_kb": 76812,
+            "ru_utime_sec": 0.101715,
+            "ru_minflt": 25638,
+            "ru_stime_sec": 0.063288999999999998,
+            "ru_majflt": 0,
+            "ru_nvcsw": 297
+        },
+        "ru_childs_end": {
+            "ru_nivcsw": 8,
+            "ru_maxrss_kb": 22492,
+            "ru_utime_sec": 0.017537000000000001,
+            "ru_minflt": 6907,
+            "ru_stime_sec": 0.019802,
+            "ru_majflt": 0,
+            "ru_nvcsw": 22
+        },
+        "cpu_cycles_end": 3466061082449324
+    }
+}

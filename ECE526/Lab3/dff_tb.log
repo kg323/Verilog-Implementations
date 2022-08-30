@@ -1,0 +1,35 @@
+Command: /home/users7/kg867678/526LSP21/Lab3/./simv -l dff_tb.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Feb 20 21:34 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+ 
+Set clock and clear (display)
+                   0: clock = 0, data = x, clear = 0, | Q = x, Qbar = x
+                  16: clock = 0, data = x, clear = 0, | Q = x, Qbar = 1
+                  23: clock = 0, data = x, clear = 0, | Q = 0, Qbar = 1
+                  50: clock = 1, data = x, clear = 0, | Q = 0, Qbar = 1
+Data test (write)
+                 100: clock = 0, data = 0, clear = 1, | Q = 0, Qbar = 1
+                 150: clock = 1, data = 0, clear = 1, | Q = 0, Qbar = 1
+                 200: clock = 0, data = 1, clear = 1, | Q = 0, Qbar = 1
+                 250: clock = 1, data = 1, clear = 1, | Q = 0, Qbar = 1
+                 300: clock = 0, data = 0, clear = 1, | Q = 0, Qbar = 1
+                 350: clock = 1, data = 0, clear = 1, | Q = 0, Qbar = 1
+                 400: clock = 0, data = 1, clear = 1, | Q = 0, Qbar = 1
+                 450: clock = 1, data = 1, clear = 1, | Q = 0, Qbar = 1
+                 500: clock = 0, data = 0, clear = 1, | Q = 0, Qbar = 1
+                 550: clock = 1, data = 0, clear = 1, | Q = 0, Qbar = 1
+                 600: clock = 0, data = 1, clear = 1, | Q = 0, Qbar = 1
+                 650: clock = 1, data = 1, clear = 1, | Q = 0, Qbar = 1
+Values of dff
+ 
+                 700: clock = 0, data = 1, clear = 1, | Q = 0, Qbar = 1
+                 700: clock = 0, data = 1, clear = 1, | Q = 0, Qbar = 1
+                 750: clock = 1, data = 1, clear = 1, | Q = 0, Qbar = 1
+$finish called from file "dff_tb.v", line 44.
+$finish at simulation time                  800
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 800 ns
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Sat Feb 20 21:34:32 2021

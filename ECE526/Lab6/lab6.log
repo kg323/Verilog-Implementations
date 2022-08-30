@@ -1,0 +1,20 @@
+Command: /home/users7/kg867678/526LSP21/Lab6/./simv -l lab6.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Mar 27 20:20 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+SEL = 0, A = 011100 and B = 100011 (case to show when SEl = 0, A = input)
+                   0: A = 011100, B = 100011, SEL = 0| OUT1 = 0, OUT4= 1100, OUT5 = 11100, OUT6 = 011100
+SEL = 1, A and B remain same (case to show when SEL = 1, B = input)
+                  20: A = 011100, B = 100011, SEL = 1| OUT1 = 1, OUT4= 0011, OUT5 = 00011, OUT6 = 100011
+SEL = unknown, must show all 3 cases for individual bits of A and B
+                  60: A = 011100, B = 100011, SEL = x| OUT1 = x, OUT4= xxxx, OUT5 = xxxxx, OUT6 = xxxxxx
+                  80: A = 111010, B = 000101, SEL = x| OUT1 = x, OUT4= xxxx, OUT5 = xxxxx, OUT6 = xxxxxx
+                 100: A = 111010, B = 110100, SEL = x| OUT1 = 0, OUT4= xxx0, OUT5 = 1xxx0, OUT6 = 11xxx0
+                 120: A = 111010, B = 111010, SEL = x| OUT1 = 0, OUT4= 1010, OUT5 = 11010, OUT6 = 111010
+$finish called from file "mux_tb.v", line 47.
+$finish at simulation time                  160
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 160 ns
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Sat Mar 27 20:20:11 2021

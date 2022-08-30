@@ -1,0 +1,27 @@
+Command: /home/users7/kg867678/526LSP21/Lab4/./simv -l reg.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Feb 27 23:01 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0: CLK = 0, DATA = 01010011, ENA = 0, RST = 0| R = xxxxxxxx
+                  24: CLK = 0, DATA = 01010011, ENA = 0, RST = 0| R = 00000000
+                  50: CLK = 1, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+                 100: CLK = 0, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+                 150: CLK = 1, DATA = 01010011, ENA = 1, RST = 1| R = 00000000
+                 200: CLK = 0, DATA = 01010011, ENA = 1, RST = 1| R = 00000000
+                 250: CLK = 1, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+                 272: CLK = 1, DATA = 01010011, ENA = 0, RST = 1| R = 01010011
+                 300: CLK = 0, DATA = 01010011, ENA = 0, RST = 0| R = 01010011
+                 324: CLK = 0, DATA = 01010011, ENA = 0, RST = 0| R = 00000000
+                 350: CLK = 1, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+                 400: CLK = 0, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+                 450: CLK = 1, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+                 500: CLK = 0, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+                 550: CLK = 1, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+                 600: CLK = 0, DATA = 01010011, ENA = 0, RST = 1| R = 00000000
+$finish called from file "register_tb.v", line 50.
+$finish at simulation time                  650
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 650 ns
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Sat Feb 27 23:01:21 2021

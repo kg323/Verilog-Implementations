@@ -1,0 +1,45 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/users7/kg867678/526LSP21/Lab1/vcdplus.vpd -design V1
+gui_src_highlight_item -id Source.1 -lfrom 1 -idxfrom 0 -fileIdFrom 0 -lto 24 -idxto 9 -fileIdTo 0 -selection {`timescale 1 ns / 1 ns
+module mux4_1_tb();
+	reg A, B, C, D, SEL0, SEL1;
+	wire OUT;
+ 
+	mux4_1 UUT (OUT, A, B, C, D, SEL0, SEL1);
+ 
+	initial
+	$monitorb ("%d OUT= %b A= %b B = %b C= %b D= %b SEL0= %b SEL= %b",
+		   $time, OUT, A, B, C, D, SEL0, SEL1);
+	initial begin
+	$vcdpluson;
+	A=1; B=1; C=1; D=1; SEL0=1'bx; SEL1=1'bx;
+	#10 A=0; B=1; C=0; D=1; SEL0=0; SEL1=0;
+	#20 SEL0=0; SEL1=1;
+	#20 SEL0=1; SEL1=0;
+	#20 SEL0=1; SEL1=1;
+	#10 A=1; B=0; C=1; D=0; SEL0=0; SEL1=0;
+	#20 SEL0=0; SEL1=1;
+	#20 SEL0=1; SEL1=0;
+	#20 SEL0=1; SEL1=1;
+	#20 $finish;
+	end
+endmodule} -selectionId 0 -replace 0
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Source.1 { mux4_1_tb mux4_1_tb.A mux4_1_tb.B mux4_1_tb.C mux4_1_tb.D mux4_1_tb.SEL0 mux4_1_tb.SEL1 mux4_1_tb.OUT mux4_1_tb.UUT } -insertionbar
+gui_list_collapse -id  Wave.1   UUT
+gui_list_select -id Wave.1 -selected  { mux4_1_tb.SEL1   }
+gui_list_select -id Wave.1 -selected  { mux4_1_tb.SEL0   }
+gui_list_select -id Wave.1 -selected  { mux4_1_tb.A   }
+gui_list_select -id Wave.1 -selected  { UUT   }
+gui_close_window -window TopLevel.1
